@@ -1,0 +1,4165 @@
+{
+	"ClinicalDocument": {
+		"realmCode": {
+			"_code": "US"
+		},
+		"typeId": {
+			"_root": "2.16.840.1.113883.1.3",
+			"_extension": "POCD_HD000040"
+		},
+		"templateId": [
+			{
+				"_root": "2.16.840.1.113883.10.20.22.1.1",
+				"_extension": "2014-06-09"
+			},
+			{
+				"_root": "2.16.840.1.113883.10.20.22.1.3",
+				"_extension": "2014-06-09"
+			}
+		],
+		"id": {
+			"_extension": "TT988",
+			"_root": "2.16.840.1.113883.19.5.99999.1"
+		},
+		"code": {
+			"_codeSystem": "2.16.840.1.113883.6.1",
+			"_codeSystemName": "LOINC",
+			"_code": "34117-2",
+			"_displayName": "History and physical note"
+		},
+		"title": "Community Health and Hospitals: History & Physical",
+		"effectiveTime": {
+			"_value": "201209161905-0400"
+		},
+		"confidentialityCode": {
+			"_code": "N",
+			"_codeSystem": "2.16.840.1.113883.5.25",
+			"_displayName": "normal"
+		},
+		"languageCode": {
+			"_code": "en-US"
+		},
+		"setId": {
+			"_extension": "sTT988",
+			"_root": "2.16.840.1.113883.19.5.99999.19"
+		},
+		"versionNumber": {
+			"_value": "1"
+		},
+		"recordTarget": {
+			"patientRole": {
+				"id": [
+					{
+						"_extension": "998991",
+						"_root": "2.16.840.1.113883.19.5.99999.2"
+					},
+					{
+						"_extension": "111-00-2330",
+						"_root": "2.16.840.1.113883.4.1"
+					}
+				],
+				"addr": {
+					"streetAddressLine": "1357 Amber Drive",
+					"city": "Beaverton",
+					"state": "OR",
+					"postalCode": "97867",
+					"country": "US",
+					"_use": "HP"
+				},
+				"telecom": {
+					"_value": "tel:(816)276-6909",
+					"_use": "HP"
+				},
+				"patient": {
+					"name": {
+						"given": [
+							"Isabella",
+							"Isa"
+						],
+						"family": "Jones",
+						"_use": "L"
+					},
+					"administrativeGenderCode": {
+						"_code": "F",
+						"_codeSystem": "2.16.840.1.113883.5.1",
+						"_displayName": "Female"
+					},
+					"birthTime": {
+						"_value": "20050501"
+					},
+					"maritalStatusCode": {
+						"_code": "M",
+						"_displayName": "Married",
+						"_codeSystem": "2.16.840.1.113883.5.2",
+						"_codeSystemName": "MaritalStatusCode"
+					},
+					"religiousAffiliationCode": {
+						"_code": "1013",
+						"_displayName": "Christian (non-Catholic, non-specific)",
+						"_codeSystemName": "HL7 Religious Affiliation",
+						"_codeSystem": "2.16.840.1.113883.5.1076"
+					},
+					"raceCode": {
+						"_code": "1966-1",
+						"_displayName": "Aleut",
+						"_codeSystem": "2.16.840.1.113883.6.238",
+						"_codeSystemName": "Race & Ethnicity - CDC"
+					},
+					"ethnicGroupCode": {
+						"_code": "2186-5",
+						"_displayName": "Not Hispanic or Latino",
+						"_codeSystem": "2.16.840.1.113883.6.238",
+						"_codeSystemName": "Race & Ethnicity - CDC"
+					},
+					"guardian": {
+						"code": {
+							"_code": "GRPRN",
+							"_displayName": "grandparent",
+							"_codeSystem": "2.16.840.1.113883.5.111",
+							"_codeSystemName": "HL7 Role code"
+						},
+						"addr": {
+							"streetAddressLine": "1357 Amber Drive",
+							"city": "Beaverton",
+							"state": "OR",
+							"postalCode": "97867",
+							"country": "US",
+							"_use": "HP"
+						},
+						"telecom": {
+							"_value": "tel:(816)276-6909",
+							"_use": "HP"
+						},
+						"guardianPerson": {
+							"name": {
+								"given": "Ralph",
+								"family": "Jones"
+							}
+						}
+					},
+					"birthplace": {
+						"place": {
+							"addr": {
+								"city": "Beaverton",
+								"state": "OR",
+								"postalCode": "97867",
+								"country": "US"
+							}
+						}
+					},
+					"languageCommunication": {
+						"languageCode": {
+							"_code": "en"
+						},
+						"modeCode": {
+							"_code": "ESP",
+							"_displayName": "Expressed spoken",
+							"_codeSystem": "2.16.840.1.113883.5.60",
+							"_codeSystemName": "LanguageAbilityMode"
+						},
+						"proficiencyLevelCode": {
+							"_code": "G",
+							"_displayName": "Good",
+							"_codeSystem": "2.16.840.1.113883.5.61",
+							"_codeSystemName": "LanguageAbilityProficiency"
+						},
+						"preferenceInd": {
+							"_value": "true"
+						}
+					}
+				},
+				"providerOrganization": {
+					"id": {
+						"_root": "2.16.840.1.113883.19.5.9999.1393"
+					},
+					"name": "Community Health and Hospitals",
+					"telecom": {
+						"_use": "WP",
+						"_value": "tel: 555-555-5000"
+					},
+					"addr": {
+						"streetAddressLine": "1001 Village Avenue",
+						"city": "Portland",
+						"state": "OR",
+						"postalCode": "99123",
+						"country": "US"
+					}
+				}
+			}
+		},
+		"author": {
+			"time": {
+				"_value": "20050329224411-0500"
+			},
+			"assignedAuthor": {
+				"id": {
+					"_extension": "99999999",
+					"_root": "2.16.840.1.113883.4.6"
+				},
+				"code": {
+					"_code": "200000000X",
+					"_codeSystem": "2.16.840.1.113883.6.101",
+					"_displayName": "Allopathic & Osteopathic Physicians"
+				},
+				"addr": {
+					"streetAddressLine": "1002 Healthcare Drive",
+					"city": "Portland",
+					"state": "OR",
+					"postalCode": "99123",
+					"country": "US"
+				},
+				"telecom": {
+					"_use": "WP",
+					"_value": "tel:555-555-1002"
+				},
+				"assignedPerson": {
+					"name": {
+						"given": "Henry",
+						"family": "Seven"
+					}
+				}
+			}
+		},
+		"dataEnterer": {
+			"assignedEntity": {
+				"id": {
+					"_root": "2.16.840.1.113883.4.6",
+					"_extension": "999999943252"
+				},
+				"addr": {
+					"streetAddressLine": "1001 Village Avenue",
+					"city": "Portland",
+					"state": "OR",
+					"postalCode": "99123",
+					"country": "US"
+				},
+				"telecom": {
+					"_use": "WP",
+					"_value": "tel:555-555-1002"
+				},
+				"assignedPerson": {
+					"name": {
+						"given": "Henry",
+						"family": "Seven"
+					}
+				}
+			}
+		},
+		"informant": [
+			{
+				"assignedEntity": {
+					"id": {
+						"_extension": "KP00017",
+						"_root": "2.16.840.1.113883.19.5"
+					},
+					"addr": {
+						"streetAddressLine": "1001 Village Avenue",
+						"city": "Portland",
+						"state": "OR",
+						"postalCode": "99123",
+						"country": "US"
+					},
+					"telecom": {
+						"_use": "WP",
+						"_value": "tel:555-555-1002"
+					},
+					"assignedPerson": {
+						"name": {
+							"given": "Henry",
+							"family": "Seven"
+						}
+					}
+				}
+			},
+			{
+				"relatedEntity": {
+					"code": {
+						"_code": "SPS",
+						"_displayName": "SPOUSE",
+						"_codeSystem": "2.16.840.1.113883.1.11.19563",
+						"_codeSystemName": "Personal Relationship Role Type Value Set"
+					},
+					"relatedPerson": {
+						"name": {
+							"given": "Frank",
+							"family": "Jones"
+						}
+					},
+					"_classCode": "PRS"
+				}
+			}
+		],
+		"custodian": {
+			"assignedCustodian": {
+				"representedCustodianOrganization": {
+					"id": {
+						"_extension": "99999999",
+						"_root": "2.16.840.1.113883.4.6"
+					},
+					"name": "Community Health and Hospitals",
+					"telecom": {
+						"_value": "tel: 555-555-1002",
+						"_use": "WP"
+					},
+					"addr": {
+						"streetAddressLine": "1002 Healthcare Drive",
+						"city": "Portland",
+						"state": "OR",
+						"postalCode": "99123",
+						"country": "US",
+						"_use": "WP"
+					}
+				}
+			}
+		},
+		"informationRecipient": {
+			"intendedRecipient": {
+				"informationRecipient": {
+					"name": {
+						"given": "Henry",
+						"family": "Seven"
+					}
+				},
+				"receivedOrganization": {
+					"name": "Community Health and Hospitals"
+				}
+			}
+		},
+		"legalAuthenticator": {
+			"time": {
+				"_value": "200902271300-0500"
+			},
+			"signatureCode": {
+				"_code": "S"
+			},
+			"assignedEntity": {
+				"id": {
+					"_extension": "999999999",
+					"_root": "2.16.840.1.113883.4.6"
+				},
+				"addr": {
+					"streetAddressLine": "1001 Village Avenue",
+					"city": "Portland",
+					"state": "OR",
+					"postalCode": "99123",
+					"country": "US"
+				},
+				"telecom": {
+					"_use": "WP",
+					"_value": "tel:555-555-1002"
+				},
+				"assignedPerson": {
+					"name": {
+						"given": "Henry",
+						"family": "Seven"
+					}
+				}
+			}
+		},
+		"authenticator": {
+			"time": {
+				"_value": "200902271300-0500"
+			},
+			"signatureCode": {
+				"_code": "S"
+			},
+			"assignedEntity": {
+				"id": {
+					"_extension": "999999999",
+					"_root": "2.16.840.1.113883.4.6"
+				},
+				"addr": {
+					"streetAddressLine": "1001 Village Avenue",
+					"city": "Portland",
+					"state": "OR",
+					"postalCode": "99123",
+					"country": "US"
+				},
+				"telecom": {
+					"_use": "WP",
+					"_value": "tel:555-555-1002"
+				},
+				"assignedPerson": {
+					"name": {
+						"given": "Henry",
+						"family": "Seven"
+					}
+				}
+			}
+		},
+		"participant": {
+			"time": {
+				"low": {
+					"_value": "19590101"
+				},
+				"high": {
+					"_value": "20111025"
+				},
+				"_xsi:type": "IVL_TS"
+			},
+			"associatedEntity": {
+				"code": {
+					"_code": "MTH",
+					"_codeSystem": "2.16.840.1.113883.5.111",
+					"_displayName": "mother"
+				},
+				"addr": {
+					"streetAddressLine": "17 Daws Rd.",
+					"city": "Beaverton",
+					"state": "OR",
+					"postalCode": "97867",
+					"country": "US"
+				},
+				"telecom": {
+					"_value": "tel:(999)555-1212",
+					"_use": "WP"
+				},
+				"associatedPerson": {
+					"name": {
+						"prefix": "Mrs.",
+						"given": "Martha",
+						"family": "Jones"
+					}
+				},
+				"_classCode": "NOK"
+			},
+			"_typeCode": "IND"
+		},
+		"inFulfillmentOf": {
+			"order": {
+				"id": {
+					"_root": "2.16.840.1.113883.19",
+					"_extension": "12345-67890"
+				},
+				"_classCode": "ACT",
+				"_moodCode": "RQO"
+			},
+			"_typeCode": "FLFS"
+		},
+		"componentOf": {
+			"encompassingEncounter": {
+				"id": {
+					"_extension": "9937012",
+					"_root": "2.16.840.1.113883.19"
+				},
+				"code": {
+					"_codeSystem": "2.16.840.1.113883.6.12",
+					"_codeSystemName": "CPT-4",
+					"_code": "99213",
+					"_displayName": "Office or other outpatient visit for the evaluation and management of an established patient, which requires a medically appropriate history and/or examination and low level of medical decision making. When using time for code selection, 20-29 minutes of total time is spent on the date of the encounter."
+				},
+				"effectiveTime": {
+					"low": {
+						"_value": "200902271300-0500"
+					},
+					"high": {
+						"_value": "200902271300-0500"
+					}
+				},
+				"location": {
+					"healthCareFacility": {
+						"id": {
+							"_root": "2.16.540.1.113883.19.2"
+						}
+					}
+				}
+			}
+		},
+		"component": {
+			"structuredBody": {
+				"component": [
+					{
+						"section": {
+							"templateId": {
+								"_root": "2.16.840.1.113883.10.20.22.2.6",
+								"_extension": "2014-06-09"
+							},
+							"code": {
+								"_code": "48765-2",
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC"
+							},
+							"title": "ALLERGIES, ADVERSE REACTIONS, ALERTS",
+							"text": {
+								"table": {
+									"thead": {
+										"tr": {
+											"th": [
+												"Substance",
+												"Reaction",
+												"Severity",
+												"Status"
+											]
+										}
+									},
+									"tbody": {
+										"tr": [
+											{
+												"td": [
+													"ALLERGENIC EXTRACT, PENICILLIN",
+													{
+														"content": {
+															"_ID": "reaction1",
+															"__text": "Nausea"
+														}
+													},
+													{
+														"content": {
+															"_ID": "severity1",
+															"__text": "Moderate to severe"
+														}
+													},
+													"Inactive"
+												]
+											},
+											{
+												"td": [
+													"Codeine",
+													{
+														"content": {
+															"_ID": "reaction2",
+															"__text": "Wheezing"
+														}
+													},
+													{
+														"content": {
+															"_ID": "severity2",
+															"__text": "Moderate"
+														}
+													},
+													"Active"
+												]
+											},
+											{
+												"td": [
+													"Aspirin",
+													{
+														"content": {
+															"_ID": "reaction3",
+															"__text": "Hives"
+														}
+													},
+													{
+														"content": {
+															"_ID": "severity3",
+															"__text": "Mild to moderate"
+														}
+													},
+													"Active"
+												]
+											}
+										]
+									},
+									"_border": "1",
+									"_width": "100%"
+								}
+							},
+							"entry": [
+								{
+									"act": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.30",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "36e3e930-7b14-11db-9fe1-0800200c9a66"
+										},
+										"code": {
+											"_code": "CONC",
+											"_codeSystem": "2.16.840.1.113883.5.6",
+											"_codeSystemName": "HL7ActClass",
+											"_displayName": "Concern"
+										},
+										"statusCode": {
+											"_code": "active"
+										},
+										"effectiveTime": {
+											"low": {
+												"_value": "20070501"
+											},
+											"high": {
+												"_value": "200902271300-0500"
+											},
+											"_value": "20070501"
+										},
+										"entryRelationship": {
+											"observation": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.7",
+													"_extension": "2014-06-09"
+												},
+												"id": {
+													"_root": "4adc1020-7b14-11db-9fe1-0800200c9a66"
+												},
+												"code": {
+													"_code": "ASSERTION",
+													"_codeSystem": "2.16.840.1.113883.5.4"
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"effectiveTime": {
+													"low": {
+														"_value": "20070501"
+													}
+												},
+												"value": {
+													"originalText": {
+														"reference": {
+															"_value": "#reaction1"
+														}
+													},
+													"_xsi:type": "CD",
+													"_code": "419511003",
+													"_displayName": "Propensity to adverse reactions to drug",
+													"_codeSystem": "2.16.840.1.113883.6.96",
+													"_codeSystemName": "SNOMED CT"
+												},
+												"participant": {
+													"participantRole": {
+														"playingEntity": {
+															"code": {
+																"originalText": {
+																	"reference": {
+																		"_value": "#reaction1"
+																	}
+																},
+																"_code": "314422",
+																"_displayName": "ALLERGENIC EXTRACT, PENICILLIN",
+																"_codeSystem": "2.16.840.1.113883.6.88",
+																"_codeSystemName": "RxNorm"
+															},
+															"_classCode": "MMAT"
+														},
+														"_classCode": "MANU"
+													},
+													"_typeCode": "CSM"
+												},
+												"entryRelationship": [
+													{
+														"observation": {
+															"templateId": {
+																"_root": "2.16.840.1.113883.10.20.22.4.9",
+																"_extension": "2014-06-09"
+															},
+															"id": {
+																"_root": "4adc1020-7b14-11db-9fe1-0800200c9a64"
+															},
+															"code": {
+																"_code": "ASSERTION",
+																"_codeSystem": "2.16.840.1.113883.5.4"
+															},
+															"text": {
+																"reference": {
+																	"_value": "#reaction1"
+																}
+															},
+															"statusCode": {
+																"_code": "completed"
+															},
+															"effectiveTime": {
+																"low": {
+																	"_value": "20070501"
+																}
+															},
+															"value": {
+																"_xsi:type": "CD",
+																"_code": "73879007",
+																"_codeSystem": "2.16.840.1.113883.6.96",
+																"_displayName": "Nausea"
+															},
+															"_classCode": "OBS",
+															"_moodCode": "EVN"
+														},
+														"_typeCode": "MFST",
+														"_inversionInd": "true"
+													},
+													{
+														"observation": {
+															"templateId": {
+																"_root": "2.16.840.1.113883.10.20.22.4.8",
+																"_extension": "2014-06-09"
+															},
+															"code": {
+																"_code": "SEV",
+																"_displayName": "Severity Observation",
+																"_codeSystem": "2.16.840.1.113883.5.4",
+																"_codeSystemName": "ActCode"
+															},
+															"text": {
+																"reference": {
+																	"_value": "#severity1"
+																}
+															},
+															"statusCode": {
+																"_code": "completed"
+															},
+															"value": {
+																"_xsi:type": "CD",
+																"_code": "371924009",
+																"_displayName": "Moderate to severe",
+																"_codeSystem": "2.16.840.1.113883.6.96",
+																"_codeSystemName": "SNOMED CT"
+															},
+															"_classCode": "OBS",
+															"_moodCode": "EVN"
+														},
+														"_typeCode": "SUBJ",
+														"_inversionInd": "true"
+													}
+												],
+												"_classCode": "OBS",
+												"_moodCode": "EVN"
+											},
+											"_typeCode": "SUBJ"
+										},
+										"_classCode": "ACT",
+										"_moodCode": "EVN"
+									},
+									"_typeCode": "DRIV"
+								},
+								{
+									"act": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.30",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "36e3e930-7b14-11db-9fe1-0800200c9a66"
+										},
+										"code": {
+											"_code": "CONC",
+											"_codeSystem": "2.16.840.1.113883.5.6",
+											"_codeSystemName": "HL7ActClass",
+											"_displayName": "Concern"
+										},
+										"statusCode": {
+											"_code": "active"
+										},
+										"effectiveTime": {
+											"low": {
+												"_value": "20060501"
+											},
+											"high": {
+												"_value": "200902271300-0500"
+											},
+											"_value": "20060501"
+										},
+										"entryRelationship": {
+											"observation": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.7",
+													"_extension": "2014-06-09"
+												},
+												"id": {
+													"_root": "4adc1020-7b14-11db-9fe1-0800200c9a66"
+												},
+												"code": {
+													"_code": "ASSERTION",
+													"_codeSystem": "2.16.840.1.113883.5.4"
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"effectiveTime": {
+													"low": {
+														"_value": "20060501"
+													}
+												},
+												"value": {
+													"originalText": {
+														"reference": {
+															"_value": "#reaction2"
+														}
+													},
+													"_xsi:type": "CD",
+													"_code": "419511003",
+													"_displayName": "Propensity to adverse reactions to drug",
+													"_codeSystem": "2.16.840.1.113883.6.96",
+													"_codeSystemName": "SNOMED CT"
+												},
+												"participant": {
+													"participantRole": {
+														"playingEntity": {
+															"code": {
+																"originalText": {
+																	"reference": {
+																		"_value": "#reaction2"
+																	}
+																},
+																"_code": "2670",
+																"_displayName": "codeine",
+																"_codeSystem": "2.16.840.1.113883.6.88",
+																"_codeSystemName": "RxNorm"
+															},
+															"_classCode": "MMAT"
+														},
+														"_classCode": "MANU"
+													},
+													"_typeCode": "CSM"
+												},
+												"entryRelationship": [
+													{
+														"observation": {
+															"templateId": {
+																"_root": "2.16.840.1.113883.10.20.22.4.9",
+																"_extension": "2014-06-09"
+															},
+															"id": {
+																"_root": "4adc1020-7b14-11db-9fe1-0800200c9a64"
+															},
+															"code": {
+																"_code": "ASSERTION",
+																"_codeSystem": "2.16.840.1.113883.5.4"
+															},
+															"text": {
+																"reference": {
+																	"_value": "#reaction2"
+																}
+															},
+															"statusCode": {
+																"_code": "completed"
+															},
+															"effectiveTime": {
+																"low": {
+																	"_value": "20060501"
+																}
+															},
+															"value": {
+																"_xsi:type": "CD",
+																"_code": "56018004",
+																"_codeSystem": "2.16.840.1.113883.6.96",
+																"_displayName": "Wheezing"
+															},
+															"_classCode": "OBS",
+															"_moodCode": "EVN"
+														},
+														"_typeCode": "MFST",
+														"_inversionInd": "true"
+													},
+													{
+														"observation": {
+															"templateId": {
+																"_root": "2.16.840.1.113883.10.20.22.4.8",
+																"_extension": "2014-06-09"
+															},
+															"code": {
+																"_code": "SEV",
+																"_displayName": "Severity Observation",
+																"_codeSystem": "2.16.840.1.113883.5.4",
+																"_codeSystemName": "ActCode"
+															},
+															"text": {
+																"reference": {
+																	"_value": "#severity2"
+																}
+															},
+															"statusCode": {
+																"_code": "completed"
+															},
+															"value": {
+																"_xsi:type": "CD",
+																"_code": "6736007",
+																"_displayName": "Moderate",
+																"_codeSystem": "2.16.840.1.113883.6.96",
+																"_codeSystemName": "SNOMED CT"
+															},
+															"_classCode": "OBS",
+															"_moodCode": "EVN"
+														},
+														"_typeCode": "SUBJ",
+														"_inversionInd": "true"
+													}
+												],
+												"_classCode": "OBS",
+												"_moodCode": "EVN"
+											},
+											"_typeCode": "SUBJ"
+										},
+										"_classCode": "ACT",
+										"_moodCode": "EVN"
+									},
+									"_typeCode": "DRIV"
+								},
+								{
+									"act": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.30",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "36e3e930-7b14-11db-9fe1-0800200c9a66"
+										},
+										"code": {
+											"_code": "CONC",
+											"_codeSystem": "2.16.840.1.113883.5.6",
+											"_codeSystemName": "HL7ActClass",
+											"_displayName": "Concern"
+										},
+										"statusCode": {
+											"_code": "active"
+										},
+										"effectiveTime": {
+											"low": {
+												"_value": "20080501"
+											},
+											"high": {
+												"_value": "200902271300-0500"
+											},
+											"_value": "20080501"
+										},
+										"entryRelationship": {
+											"observation": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.7",
+													"_extension": "2014-06-09"
+												},
+												"id": {
+													"_root": "4adc1020-7b14-11db-9fe1-0800200c9a66"
+												},
+												"code": {
+													"_code": "ASSERTION",
+													"_codeSystem": "2.16.840.1.113883.5.4"
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"effectiveTime": {
+													"low": {
+														"_value": "20080501"
+													}
+												},
+												"value": {
+													"originalText": {
+														"reference": {
+															"_value": "#reaction3"
+														}
+													},
+													"_xsi:type": "CD",
+													"_code": "419511003",
+													"_displayName": "Propensity to adverse reactions to drug",
+													"_codeSystem": "2.16.840.1.113883.6.96",
+													"_codeSystemName": "SNOMED CT"
+												},
+												"participant": {
+													"participantRole": {
+														"playingEntity": {
+															"code": {
+																"originalText": {
+																	"reference": {
+																		"_value": "#reaction3"
+																	}
+																},
+																"_code": "1191",
+																"_displayName": "aspirin",
+																"_codeSystem": "2.16.840.1.113883.6.88",
+																"_codeSystemName": "RxNorm"
+															},
+															"_classCode": "MMAT"
+														},
+														"_classCode": "MANU"
+													},
+													"_typeCode": "CSM"
+												},
+												"entryRelationship": [
+													{
+														"observation": {
+															"templateId": {
+																"_root": "2.16.840.1.113883.10.20.22.4.9",
+																"_extension": "2014-06-09"
+															},
+															"id": {
+																"_root": "4adc1020-7b14-11db-9fe1-0800200c9a64"
+															},
+															"code": {
+																"_code": "ASSERTION",
+																"_codeSystem": "2.16.840.1.113883.5.4"
+															},
+															"text": {
+																"reference": {
+																	"_value": "#reaction3"
+																}
+															},
+															"statusCode": {
+																"_code": "completed"
+															},
+															"effectiveTime": {
+																"low": {
+																	"_value": "20080501"
+																}
+															},
+															"value": {
+																"_xsi:type": "CD",
+																"_code": "247472004",
+																"_codeSystem": "2.16.840.1.113883.6.96",
+																"_displayName": "Wheal"
+															},
+															"_classCode": "OBS",
+															"_moodCode": "EVN"
+														},
+														"_typeCode": "MFST",
+														"_inversionInd": "true"
+													},
+													{
+														"observation": {
+															"templateId": {
+																"_root": "2.16.840.1.113883.10.20.22.4.8",
+																"_extension": "2014-06-09"
+															},
+															"code": {
+																"_code": "SEV",
+																"_displayName": "Severity Observation",
+																"_codeSystem": "2.16.840.1.113883.5.4",
+																"_codeSystemName": "ActCode"
+															},
+															"text": {
+																"reference": {
+																	"_value": "#severity3"
+																}
+															},
+															"statusCode": {
+																"_code": "completed"
+															},
+															"value": {
+																"_xsi:type": "CD",
+																"_code": "371923003",
+																"_displayName": "Mild to moderate",
+																"_codeSystem": "2.16.840.1.113883.6.96",
+																"_codeSystemName": "SNOMED CT"
+															},
+															"_classCode": "OBS",
+															"_moodCode": "EVN"
+														},
+														"_typeCode": "SUBJ",
+														"_inversionInd": "true"
+													}
+												],
+												"_classCode": "OBS",
+												"_moodCode": "EVN"
+											},
+											"_typeCode": "SUBJ"
+										},
+										"_classCode": "ACT",
+										"_moodCode": "EVN"
+									},
+									"_typeCode": "DRIV"
+								}
+							]
+						}
+					},
+					{
+						"section": {
+							"templateId": {
+								"_root": "2.16.840.1.113883.10.20.22.2.8",
+								"_extension": "2014-06-09"
+							},
+							"code": {
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_code": "51848-0",
+								"_displayName": "Evaluation note"
+							},
+							"title": "ASSESSMENT",
+							"text": {
+								"list": {
+									"item": [
+										"Recurrent GI bleed of unknown etiology; hypotension perhaps secondary to\n                        this but as likely secondary to polypharmacy.",
+										"Acute on chronic anemia secondary to #1.",
+										"Azotemia, acute renal failure with volume loss secondary to #1.",
+										"Hyperkalemia secondary to #3 and on ACE and K+ supplement.",
+										"Other chronic diagnoses as noted above, currently stable."
+									],
+									"_listType": "ordered"
+								}
+							}
+						}
+					},
+					{
+						"section": {
+							"templateId": {
+								"_root": "2.16.840.1.113883.10.20.22.2.13"
+							},
+							"code": {
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_code": "46239-0",
+								"_displayName": "REASON FOR VISIT + CHIEF COMPLAINT"
+							},
+							"title": "REASON FOR VISIT/CHIEF COMPLAINT",
+							"text": {
+								"paragraph": "Dark stools."
+							}
+						}
+					},
+					{
+						"section": {
+							"templateId": {
+								"_root": "2.16.840.1.113883.10.20.22.2.15",
+								"_extension": "2014-06-09"
+							},
+							"code": {
+								"_code": "10157-6",
+								"_codeSystem": "2.16.840.1.113883.6.1"
+							},
+							"title": "FAMILY HISTORY",
+							"text": {
+								"paragraph": "Father (deceased)",
+								"table": {
+									"thead": {
+										"tr": {
+											"th": [
+												"Diagnosis",
+												"Age At Onset"
+											]
+										}
+									},
+									"tbody": {
+										"tr": [
+											{
+												"td": [
+													"Myocardial Infarction (cause of death)",
+													"57"
+												]
+											},
+											{
+												"td": [
+													"Diabetes",
+													"40"
+												]
+											}
+										]
+									},
+									"_border": "1",
+									"_width": "100%"
+								}
+							},
+							"entry": {
+								"organizer": {
+									"templateId": {
+										"_root": "2.16.840.1.113883.10.20.22.4.45",
+										"_extension": "2014-06-09"
+									},
+									"id": {
+										"_root": "9123aedf-5315-4c3a-aeef-1e98319cc6b5"
+									},
+									"statusCode": {
+										"_code": "completed"
+									},
+									"subject": {
+										"relatedSubject": {
+											"code": {
+												"translation": {
+													"_code": "9947008",
+													"_displayName": "Biological father",
+													"_codeSystemName": "SNOMED",
+													"_codeSystem": "2.16.840.1.113883.6.96"
+												},
+												"_code": "FTH",
+												"_displayName": "father",
+												"_codeSystemName": "HL7 FamilyMember",
+												"_codeSystem": "2.16.840.1.113883.5.111"
+											},
+											"subject": {
+												"administrativeGenderCode": {
+													"_code": "M",
+													"_codeSystem": "2.16.840.1.113883.5.1",
+													"_displayName": "Male"
+												},
+												"birthTime": {
+													"_value": "1910"
+												}
+											},
+											"_classCode": "PRS"
+										}
+									},
+									"component": [
+										{
+											"observation": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.46",
+													"_extension": "2014-06-09"
+												},
+												"id": {
+													"_root": "d42ebf70-5c89-11db-b0de-0800200c9a66"
+												},
+												"code": {
+													"_code": "75323-6",
+													"_codeSystem": "2.16.840.1.113883.6.1",
+													"_codeSystemName": "LOINC",
+													"_displayName": "Condition"
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"effectiveTime": {
+													"_value": "1967"
+												},
+												"value": {
+													"_xsi:type": "CD",
+													"_code": "22298006",
+													"_codeSystem": "2.16.840.1.113883.6.96",
+													"_displayName": "Myocardial infarction"
+												},
+												"entryRelationship": [
+													{
+														"observation": {
+															"templateId": {
+																"_root": "2.16.840.1.113883.10.20.22.4.47"
+															},
+															"id": {
+																"_root": "6898fae0-5c8a-11db-b0de-0800200c9a66"
+															},
+															"code": {
+																"_code": "ASSERTION",
+																"_codeSystem": "2.16.840.1.113883.5.4"
+															},
+															"statusCode": {
+																"_code": "completed"
+															},
+															"value": {
+																"_xsi:type": "CD",
+																"_code": "419099009",
+																"_codeSystem": "2.16.840.1.113883.6.96",
+																"_displayName": "Dead"
+															},
+															"_classCode": "OBS",
+															"_moodCode": "EVN"
+														},
+														"_typeCode": "CAUS"
+													},
+													{
+														"observation": {
+															"templateId": {
+																"_root": "2.16.840.1.113883.10.20.22.4.31"
+															},
+															"code": {
+																"_code": "445518008",
+																"_codeSystem": "2.16.840.1.113883.6.96",
+																"_displayName": "Age At Onset"
+															},
+															"statusCode": {
+																"_code": "completed"
+															},
+															"value": {
+																"_xsi:type": "PQ",
+																"_value": "57",
+																"_unit": "a"
+															},
+															"_classCode": "OBS",
+															"_moodCode": "EVN"
+														},
+														"_typeCode": "SUBJ",
+														"_inversionInd": "true"
+													}
+												],
+												"_classCode": "OBS",
+												"_moodCode": "EVN"
+											}
+										},
+										{
+											"observation": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.46",
+													"_extension": "2014-06-09"
+												},
+												"id": {
+													"_root": "5bfe3ec0-5c8b-11db-b0de-0800200c9a66"
+												},
+												"code": {
+													"_code": "75323-6",
+													"_codeSystem": "2.16.840.1.113883.6.1",
+													"_codeSystemName": "LOINC",
+													"_displayName": "Condition"
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"effectiveTime": {
+													"_value": "1950"
+												},
+												"value": {
+													"_xsi:type": "CD",
+													"_code": "46635009",
+													"_codeSystem": "2.16.840.1.113883.6.96",
+													"_displayName": "Diabetes mellitus type 1"
+												},
+												"entryRelationship": {
+													"observation": {
+														"templateId": {
+															"_root": "2.16.840.1.113883.10.20.22.4.31"
+														},
+														"code": {
+															"_code": "445518008",
+															"_codeSystem": "2.16.840.1.113883.6.96",
+															"_displayName": "Age At Onset"
+														},
+														"statusCode": {
+															"_code": "completed"
+														},
+														"value": {
+															"_xsi:type": "PQ",
+															"_value": "40",
+															"_unit": "a"
+														},
+														"_classCode": "OBS",
+														"_moodCode": "EVN"
+													},
+													"_typeCode": "SUBJ",
+													"_inversionInd": "true"
+												},
+												"_classCode": "OBS",
+												"_moodCode": "EVN"
+											}
+										}
+									],
+									"_moodCode": "EVN",
+									"_classCode": "CLUSTER"
+								},
+								"_typeCode": "DRIV"
+							}
+						}
+					},
+					{
+						"section": {
+							"templateId": {
+								"_root": "2.16.840.1.113883.10.20.2.5"
+							},
+							"code": {
+								"_code": "10210-3",
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_displayName": "Physical findings of General status Narrative"
+							},
+							"title": "GENERAL STATUS",
+							"text": {
+								"paragraph": "Alert and in good spirits, no acute distress."
+							}
+						}
+					},
+					{
+						"section": {
+							"templateId": {
+								"_root": "2.16.840.1.113883.10.20.22.2.20",
+								"_extension": "2014-06-09"
+							},
+							"code": {
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_code": "11348-0",
+								"_displayName": "HISTORY OF PAST ILLNESS"
+							},
+							"title": "PAST MEDICAL HISTORY",
+							"text": {
+								"paragraph": "See History of Present Illness."
+							}
+						}
+					},
+					{
+						"section": {
+							"templateId": {
+								"_root": "1.3.6.1.4.1.19376.1.5.3.1.3.4"
+							},
+							"code": {
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_code": "10164-2",
+								"_displayName": "HISTORY OF PRESENT ILLNESS"
+							},
+							"title": "HISTORY OF PRESENT ILLNESS",
+							"text": {
+								"paragraph": [
+									"This patient was only recently discharged for a recurrent GI bleed as\n                     described below.",
+									"He presented to the ER today c/o a dark stool yesterday but a normal\n                     brown stool today. On exam he was hypotensive in the 80?s resolved after ....\n                     .... ....",
+									"Lab at discharge: Glucose 112, BUN 16, creatinine 1.1, electrolytes\n                     normal. H. pylori antibody pending. Admission hematocrit 16%, discharge\n                     hematocrit 29%. WBC 7300, platelet count 256,000. Urinalysis normal. Urine\n                     culture: No growth. INR 1.1, PTT 40.",
+									"He was transfused with 6 units of packed red blood cells with .... ....\n                     ....",
+									"GI evaluation 12 September: Colonoscopy showed single red clot in ....\n                     .... ...."
+								]
+							}
+						}
+					},
+					{
+						"section": {
+							"templateId": {
+								"_root": "2.16.840.1.113883.10.20.22.2.2.1",
+								"_extension": "2014-06-09"
+							},
+							"code": {
+								"_code": "11369-6",
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_displayName": "History of immunizations"
+							},
+							"title": "IMMUNIZATIONS",
+							"text": {
+								"content": {
+									"_ID": "immunSect"
+								},
+								"table": {
+									"thead": {
+										"tr": {
+											"th": [
+												"Vaccine",
+												"Date",
+												"Status"
+											]
+										}
+									},
+									"tbody": {
+										"tr": [
+											{
+												"td": [
+													{
+														"content": {
+															"_ID": "immun1"
+														},
+														"__text": "Influenza virus vaccine, IM"
+													},
+													"Nov 1999",
+													"Completed"
+												]
+											},
+											{
+												"td": [
+													{
+														"content": {
+															"_ID": "immun2"
+														},
+														"__text": "Influenza virus vaccine, IM"
+													},
+													"Dec 1998",
+													"Completed"
+												]
+											},
+											{
+												"td": [
+													{
+														"content": {
+															"_ID": "immun3"
+														},
+														"__text": "Pneumococcal polysaccharide vaccine, IM"
+													},
+													"Dec 1998",
+													"Completed"
+												]
+											},
+											{
+												"td": [
+													{
+														"content": {
+															"_ID": "immun4"
+														},
+														"__text": "Tetanus and diphtheria toxoids, IM"
+													},
+													"1997",
+													"Refused"
+												]
+											}
+										]
+									},
+									"_border": "1",
+									"_width": "100%"
+								}
+							},
+							"entry": [
+								{
+									"substanceAdministration": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.52",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "e6f1ba43-c0ed-4b9b-9f12-f435d8ad8f92"
+										},
+										"text": {
+											"reference": {
+												"_value": "#immun1"
+											}
+										},
+										"statusCode": {
+											"_code": "completed"
+										},
+										"effectiveTime": {
+											"_xsi:type": "IVL_TS",
+											"_value": "199911"
+										},
+										"routeCode": {
+											"_code": "C28161",
+											"_codeSystem": "2.16.840.1.113883.3.26.1.1",
+											"_codeSystemName": "National Cancer Institute (NCI) Thesaurus",
+											"_displayName": "Intramuscular Route of Administration"
+										},
+										"doseQuantity": {
+											"_value": "50",
+											"_unit": "mcg"
+										},
+										"consumable": {
+											"manufacturedProduct": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.54",
+													"_extension": "2014-06-09"
+												},
+												"manufacturedMaterial": {
+													"code": {
+														"originalText": "Influenza virus vaccine",
+														"translation": {
+															"_code": "111",
+															"_displayName": "influenza virus vaccine, live, attenuated, for intranasal use",
+															"_codeSystemName": "CVX",
+															"_codeSystem": "2.16.840.1.113883.12.292"
+														},
+														"_code": "88",
+														"_codeSystem": "2.16.840.1.113883.12.292",
+														"_displayName": "influenza virus vaccine, unspecified formulation",
+														"_codeSystemName": "CVX"
+													},
+													"lotNumberText": "1"
+												},
+												"manufacturerOrganization": {
+													"name": "Health LS - Immuno Inc."
+												},
+												"_classCode": "MANU"
+											}
+										},
+										"entryRelationship": {
+											"act": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.20",
+													"_extension": "2014-06-09"
+												},
+												"code": {
+													"_code": "171044003",
+													"_codeSystem": "2.16.840.1.113883.6.96",
+													"_displayName": "Immunization education"
+												},
+												"text": {
+													"reference": {
+														"_value": "#immunSect"
+													},
+													"__text": "Possible flu-like symptoms for three\n                              days."
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"_classCode": "ACT",
+												"_moodCode": "INT"
+											},
+											"_typeCode": "SUBJ",
+											"_inversionInd": "true"
+										},
+										"_classCode": "SBADM",
+										"_moodCode": "EVN",
+										"_negationInd": "false"
+									},
+									"_typeCode": "DRIV"
+								},
+								{
+									"substanceAdministration": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.52",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "e6f1ba43-c0ed-4b9b-9f12-f435d8ad8f92"
+										},
+										"text": {
+											"reference": {
+												"_value": "#immun2"
+											}
+										},
+										"statusCode": {
+											"_code": "completed"
+										},
+										"effectiveTime": {
+											"_xsi:type": "IVL_TS",
+											"_value": "19981215"
+										},
+										"routeCode": {
+											"_code": "C28161",
+											"_codeSystem": "2.16.840.1.113883.3.26.1.1",
+											"_codeSystemName": "National Cancer Institute (NCI) Thesaurus",
+											"_displayName": "Intramuscular Route of Administration"
+										},
+										"doseQuantity": {
+											"_value": "50",
+											"_unit": "mcg"
+										},
+										"consumable": {
+											"manufacturedProduct": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.54",
+													"_extension": "2014-06-09"
+												},
+												"manufacturedMaterial": {
+													"code": {
+														"originalText": "Influenza virus vaccine",
+														"translation": {
+															"_code": "111",
+															"_displayName": "influenza virus vaccine, live, attenuated, for intranasal use",
+															"_codeSystemName": "CVX",
+															"_codeSystem": "2.16.840.1.113883.12.292"
+														},
+														"_code": "88",
+														"_codeSystem": "2.16.840.1.113883.12.292",
+														"_displayName": "influenza virus vaccine, unspecified formulation",
+														"_codeSystemName": "CVX"
+													},
+													"lotNumberText": "134"
+												},
+												"manufacturerOrganization": {
+													"name": "Health LS - Immuno Inc."
+												},
+												"_classCode": "MANU"
+											}
+										},
+										"entryRelationship": {
+											"act": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.20",
+													"_extension": "2014-06-09"
+												},
+												"code": {
+													"_code": "171044003",
+													"_codeSystem": "2.16.840.1.113883.6.96",
+													"_displayName": "Immunization education"
+												},
+												"text": {
+													"reference": {
+														"_value": "#immunSect"
+													},
+													"__text": "Possible flu-like symptoms for three\n                              days."
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"_classCode": "ACT",
+												"_moodCode": "INT"
+											},
+											"_typeCode": "SUBJ",
+											"_inversionInd": "true"
+										},
+										"_classCode": "SBADM",
+										"_moodCode": "EVN",
+										"_negationInd": "false"
+									},
+									"_typeCode": "DRIV"
+								},
+								{
+									"substanceAdministration": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.52",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "e6f1ba43-c0ed-4b9b-9f12-f435d8ad8f92"
+										},
+										"text": {
+											"reference": {
+												"_value": "#immun3"
+											}
+										},
+										"statusCode": {
+											"_code": "completed"
+										},
+										"effectiveTime": {
+											"_xsi:type": "IVL_TS",
+											"_value": "19981215"
+										},
+										"routeCode": {
+											"_code": "C28161",
+											"_codeSystem": "2.16.840.1.113883.3.26.1.1",
+											"_codeSystemName": "National Cancer Institute (NCI) Thesaurus",
+											"_displayName": "Intramuscular Route of Administration"
+										},
+										"doseQuantity": {
+											"_value": "50",
+											"_unit": "mcg"
+										},
+										"consumable": {
+											"manufacturedProduct": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.54",
+													"_extension": "2014-06-09"
+												},
+												"manufacturedMaterial": {
+													"code": {
+														"originalText": "Influenza virus vaccine",
+														"translation": {
+															"_code": "109",
+															"_displayName": "pneumococcal vaccine, unspecified formulation",
+															"_codeSystemName": "CVX",
+															"_codeSystem": "2.16.840.1.113883.12.292"
+														},
+														"_code": "33",
+														"_codeSystem": "2.16.840.1.113883.12.292",
+														"_displayName": "pneumococcal polysaccharide vaccine, 23 valent",
+														"_codeSystemName": "CVX"
+													},
+													"lotNumberText": "136"
+												},
+												"manufacturerOrganization": {
+													"name": "Health LS - Immuno Inc."
+												},
+												"_classCode": "MANU"
+											}
+										},
+										"entryRelationship": {
+											"act": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.20",
+													"_extension": "2014-06-09"
+												},
+												"code": {
+													"_code": "171044003",
+													"_codeSystem": "2.16.840.1.113883.6.96",
+													"_displayName": "Immunization education"
+												},
+												"text": {
+													"reference": {
+														"_value": "#immunSect"
+													},
+													"__text": "Possible flu-like symptoms for three\n                              days."
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"_classCode": "ACT",
+												"_moodCode": "INT"
+											},
+											"_typeCode": "SUBJ",
+											"_inversionInd": "true"
+										},
+										"_classCode": "SBADM",
+										"_moodCode": "EVN",
+										"_negationInd": "false"
+									},
+									"_typeCode": "DRIV"
+								},
+								{
+									"substanceAdministration": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.52",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "e6f1ba43-c0ed-4b9b-9f12-f435d8ad8f92"
+										},
+										"text": {
+											"reference": {
+												"_value": "#immun3"
+											}
+										},
+										"statusCode": {
+											"_code": "completed"
+										},
+										"effectiveTime": {
+											"_xsi:type": "IVL_TS",
+											"_value": "19981215"
+										},
+										"routeCode": {
+											"_code": "C28161",
+											"_codeSystem": "2.16.840.1.113883.3.26.1.1",
+											"_codeSystemName": "National Cancer Institute (NCI) Thesaurus",
+											"_displayName": "Intramuscular Route of Administration"
+										},
+										"doseQuantity": {
+											"_value": "50",
+											"_unit": "mcg"
+										},
+										"consumable": {
+											"manufacturedProduct": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.54",
+													"_extension": "2014-06-09"
+												},
+												"manufacturedMaterial": {
+													"code": {
+														"originalText": "Tetanus and diphtheria toxoids - preservative\n                                    free",
+														"translation": {
+															"_code": "09",
+															"_displayName": "tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use",
+															"_codeSystemName": "CVX",
+															"_codeSystem": "2.16.840.1.113883.12.292"
+														},
+														"_code": "103",
+														"_codeSystem": "2.16.840.1.113883.12.292",
+														"_displayName": "meningococcal C conjugate vaccine",
+														"_codeSystemName": "CVX"
+													},
+													"lotNumberText": "137"
+												},
+												"manufacturerOrganization": {
+													"name": "Health LS - Immuno Inc."
+												},
+												"_classCode": "MANU"
+											}
+										},
+										"entryRelationship": [
+											{
+												"act": {
+													"templateId": {
+														"_root": "2.16.840.1.113883.10.20.22.4.20",
+														"_extension": "2014-06-09"
+													},
+													"code": {
+														"_code": "171044003",
+														"_codeSystem": "2.16.840.1.113883.6.96",
+														"_displayName": "Immunization education"
+													},
+													"text": {
+														"reference": {
+															"_value": "#immunSect"
+														},
+														"__text": "Possible flu-like symptoms for three\n                              days."
+													},
+													"statusCode": {
+														"_code": "completed"
+													},
+													"_classCode": "ACT",
+													"_moodCode": "INT"
+												},
+												"_typeCode": "SUBJ",
+												"_inversionInd": "true"
+											},
+											{
+												"observation": {
+													"templateId": {
+														"_root": "2.16.840.1.113883.10.20.22.4.53"
+													},
+													"id": {
+														"_root": "2a620155-9d11-439e-92b3-5d9815ff4dd8"
+													},
+													"code": {
+														"_displayName": "patient objection",
+														"_code": "PATOBJ",
+														"_codeSystemName": "HL7 ActNoImmunizationReason",
+														"_codeSystem": "2.16.840.1.113883.5.8"
+													},
+													"statusCode": {
+														"_code": "completed"
+													},
+													"_classCode": "OBS",
+													"_moodCode": "EVN"
+												},
+												"_typeCode": "RSON"
+											}
+										],
+										"_classCode": "SBADM",
+										"_moodCode": "EVN",
+										"_negationInd": "true"
+									},
+									"_typeCode": "DRIV"
+								}
+							]
+						}
+					},
+					{
+						"section": {
+							"templateId": [
+								{
+									"_root": "2.16.840.1.113883.10.20.22.2.1",
+									"_extension": "2014-06-09"
+								},
+								{
+									"_root": "2.16.840.1.113883.10.20.22.2.1.1",
+									"_extension": "2014-06-09"
+								}
+							],
+							"code": {
+								"_code": "10160-0",
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_displayName": "HISTORY OF MEDICATION USE"
+							},
+							"title": "MEDICATIONS",
+							"text": {
+								"table": {
+									"thead": {
+										"tr": {
+											"th": [
+												"Medication",
+												"Directions",
+												"Start Date",
+												"Status",
+												"Indications",
+												"Fill Instructions"
+											]
+										}
+									},
+									"tbody": {
+										"tr": {
+											"td": [
+												{
+													"content": {
+														"_ID": "MedSec_1",
+														"__text": "Proventil 0.09 MG/ACTUAT inhalant\n                                 solution"
+													}
+												},
+												"0.09 MG/ACTUAT inhalant solution, 2 puffs QID PRN wheezing",
+												"20070103",
+												"Active",
+												"Pneumonia (233604007 SNOMED CT)",
+												"Generic Substitition Allowed"
+											]
+										}
+									},
+									"_border": "1",
+									"_width": "100%"
+								}
+							},
+							"entry": {
+								"substanceAdministration": {
+									"templateId": {
+										"_root": "2.16.840.1.113883.10.20.22.4.16",
+										"_extension": "2014-06-09"
+									},
+									"id": {
+										"_root": "cdbd33f0-6cde-11db-9fe1-0800200c9a66"
+									},
+									"text": {
+										"reference": {
+											"_value": "#MedSec_1"
+										},
+										"__text": "0.09 MG/ACTUAT inhalant solution, 2 puffs QID\n                        PRN wheezing"
+									},
+									"statusCode": {
+										"_code": "completed"
+									},
+									"effectiveTime": [
+										{
+											"low": {
+												"_value": "20070103"
+											},
+											"high": {
+												"_value": "20120515"
+											},
+											"_xsi:type": "IVL_TS"
+										},
+										{
+											"period": {
+												"_value": "6",
+												"_unit": "h"
+											},
+											"_xsi:type": "PIVL_TS",
+											"_institutionSpecified": "true",
+											"_operator": "A"
+										}
+									],
+									"routeCode": {
+										"_code": "C38216",
+										"_codeSystem": "2.16.840.1.113883.3.26.1.1",
+										"_codeSystemName": "NCI Thesaurus",
+										"_displayName": "Inhalation Route of Administration"
+									},
+									"doseQuantity": {
+										"_value": "1",
+										"_unit": "mg/actuat"
+									},
+									"rateQuantity": {
+										"_value": "90",
+										"_unit": "ml/min"
+									},
+									"maxDoseQuantity": {
+										"numerator": {
+											"_nullFlavor": "UNK"
+										},
+										"denominator": {
+											"_nullFlavor": "UNK"
+										},
+										"_nullFlavor": "UNK"
+									},
+									"administrationUnitCode": {
+										"_code": "C42944",
+										"_displayName": "INHALANT",
+										"_codeSystem": "2.16.840.1.113883.3.26.1.1",
+										"_codeSystemName": "NCI Thesaurus"
+									},
+									"consumable": {
+										"manufacturedProduct": {
+											"templateId": {
+												"_root": "2.16.840.1.113883.10.20.22.4.23",
+												"_extension": "2014-06-09"
+											},
+											"id": {
+												"_root": "2a620155-9d11-439e-92b3-5d9815ff4ee8"
+											},
+											"manufacturedMaterial": {
+												"code": {
+													"originalText": {
+														"reference": {
+															"_value": "#MedSec_1"
+														}
+													},
+													"translation": {
+														"_code": "573621",
+														"_displayName": "albuterol 0.09 MG/ACTUAT [Proventil]",
+														"_codeSystem": "2.16.840.1.113883.6.88",
+														"_codeSystemName": "RxNorm"
+													},
+													"_code": "573621",
+													"_codeSystem": "2.16.840.1.113883.6.88",
+													"_displayName": "albuterol 0.09 MG/ACTUAT [Proventil]"
+												}
+											},
+											"manufacturerOrganization": {
+												"name": "Medication Factory Inc."
+											},
+											"_classCode": "MANU"
+										}
+									},
+									"performer": {
+										"assignedEntity": {
+											"id": {
+												"_nullFlavor": "NI"
+											},
+											"addr": {
+												"_nullFlavor": "UNK"
+											},
+											"telecom": {
+												"_nullFlavor": "UNK"
+											},
+											"representedOrganization": {
+												"id": {
+													"_root": "2.16.840.1.113883.19.5.9999.1393"
+												},
+												"name": "Community Health and Hospitals",
+												"telecom": {
+													"_nullFlavor": "UNK"
+												},
+												"addr": {
+													"_nullFlavor": "UNK"
+												}
+											}
+										}
+									},
+									"participant": {
+										"participantRole": {
+											"templateId": {
+												"_root": "2.16.840.1.113883.10.20.22.4.24"
+											},
+											"code": {
+												"_code": "412307009",
+												"_displayName": "Drug vehicle",
+												"_codeSystem": "2.16.840.1.113883.6.96"
+											},
+											"playingEntity": {
+												"code": {
+													"_code": "324049",
+													"_displayName": "Aerosol",
+													"_codeSystem": "2.16.840.1.113883.6.88",
+													"_codeSystemName": "RxNorm"
+												},
+												"name": "Aerosol",
+												"_classCode": "MMAT"
+											},
+											"_classCode": "MANU"
+										},
+										"_typeCode": "CSM"
+									},
+									"entryRelationship": [
+										{
+											"observation": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.19",
+													"_extension": "2014-06-09"
+												},
+												"id": {
+													"_root": "db734647-fc99-424c-a864-7e3cda82e703",
+													"_extension": "45665"
+												},
+												"code": {
+													"_code": "75321-0",
+													"_codeSystem": "2.16.840.1.113883.6.1",
+													"_codeSystemName": "LOINC",
+													"_displayName": "Clinical finding"
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"effectiveTime": {
+													"low": {
+														"_value": "20070103"
+													}
+												},
+												"value": {
+													"_xsi:type": "CD",
+													"_code": "233604007",
+													"_displayName": "Pneumonia",
+													"_codeSystem": "2.16.840.1.113883.6.96"
+												},
+												"_classCode": "OBS",
+												"_moodCode": "EVN"
+											},
+											"_typeCode": "RSON"
+										},
+										{
+											"supply": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.17",
+													"_extension": "2014-06-09"
+												},
+												"id": {
+													"_nullFlavor": "NI"
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"effectiveTime": {
+													"low": {
+														"_value": "20070103"
+													},
+													"high": {
+														"_nullFlavor": "UNK"
+													},
+													"_xsi:type": "IVL_TS"
+												},
+												"repeatNumber": {
+													"_value": "1"
+												},
+												"quantity": {
+													"_value": "75"
+												},
+												"product": {
+													"manufacturedProduct": {
+														"templateId": {
+															"_root": "2.16.840.1.113883.10.20.22.4.23",
+															"_extension": "2014-06-09"
+														},
+														"id": {
+															"_root": "2a620155-9d11-439e-92b3-5d9815ff4ee8"
+														},
+														"manufacturedMaterial": {
+															"code": {
+																"originalText": {
+																	"reference": {
+																		"_value": "#MedSec_1"
+																	}
+																},
+																"translation": {
+																	"_code": "573621",
+																	"_displayName": "albuterol 0.09 MG/ACTUAT [Proventil]",
+																	"_codeSystem": "2.16.840.1.113883.6.88",
+																	"_codeSystemName": "RxNorm"
+																},
+																"_code": "573621",
+																"_codeSystem": "2.16.840.1.113883.6.88",
+																"_displayName": "albuterol 0.09 MG/ACTUAT [Proventil]"
+															}
+														},
+														"manufacturerOrganization": {
+															"name": "Medication Factory Inc."
+														},
+														"_classCode": "MANU"
+													}
+												},
+												"performer": {
+													"assignedEntity": {
+														"id": {
+															"_extension": "2981823",
+															"_root": "2.16.840.1.113883.19.5.9999.456"
+														},
+														"addr": {
+															"streetAddressLine": "1001 Village Avenue",
+															"city": "Portland",
+															"state": "OR",
+															"postalCode": "99123",
+															"country": "US"
+														}
+													}
+												},
+												"author": {
+													"time": {
+														"_nullFlavor": "UNK"
+													},
+													"assignedAuthor": {
+														"id": {
+															"_root": "2a620155-9d11-439e-92b3-5d9815fe4de8"
+														},
+														"addr": {
+															"_nullFlavor": "UNK"
+														},
+														"telecom": {
+															"_nullFlavor": "UNK"
+														},
+														"assignedPerson": {
+															"name": {
+																"prefix": "Dr.",
+																"given": "Henry",
+																"family": "Seven"
+															}
+														}
+													}
+												},
+												"entryRelationship": {
+													"act": {
+														"templateId": {
+															"_root": "2.16.840.1.113883.10.20.22.4.20",
+															"_extension": "2014-06-09"
+														},
+														"code": {
+															"_code": "409073007",
+															"_codeSystem": "2.16.840.1.113883.6.96",
+															"_displayName": "Education"
+														},
+														"text": {
+															"reference": {
+																"_value": "#MedSec_1"
+															},
+															"__text": "label in spanish"
+														},
+														"statusCode": {
+															"_code": "completed"
+														},
+														"_classCode": "ACT",
+														"_moodCode": "INT"
+													},
+													"_typeCode": "SUBJ",
+													"_inversionInd": "true"
+												},
+												"_classCode": "SPLY",
+												"_moodCode": "INT"
+											},
+											"_typeCode": "REFR"
+										},
+										{
+											"supply": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.18",
+													"_extension": "2014-06-09"
+												},
+												"id": {
+													"_root": "1.2.3.4.56789.1",
+													"_extension": "cb734647-fc99-424c-a864-7e3cda82e704"
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"effectiveTime": {
+													"_value": "20070103"
+												},
+												"repeatNumber": {
+													"_value": "1"
+												},
+												"quantity": {
+													"_value": "75"
+												},
+												"product": {
+													"manufacturedProduct": {
+														"templateId": {
+															"_root": "2.16.840.1.113883.10.20.22.4.23",
+															"_extension": "2014-06-09"
+														},
+														"id": {
+															"_root": "2a620155-9d11-439e-92b3-5d9815ff4ee8"
+														},
+														"manufacturedMaterial": {
+															"code": {
+																"originalText": {
+																	"reference": {
+																		"_value": "#MedSec_1"
+																	}
+																},
+																"translation": {
+																	"_code": "573621",
+																	"_displayName": "albuterol 0.09 MG/ACTUAT [Proventil]",
+																	"_codeSystem": "2.16.840.1.113883.6.88",
+																	"_codeSystemName": "RxNorm"
+																},
+																"_code": "573621",
+																"_codeSystem": "2.16.840.1.113883.6.88",
+																"_displayName": "albuterol 0.09 MG/ACTUAT [Proventil]"
+															}
+														},
+														"manufacturerOrganization": {
+															"name": "Medication Factory Inc."
+														},
+														"_classCode": "MANU"
+													}
+												},
+												"performer": {
+													"time": {
+														"_nullFlavor": "UNK"
+													},
+													"assignedEntity": {
+														"id": {
+															"_root": "2.16.840.1.113883.19.5.9999.456",
+															"_extension": "2981823"
+														},
+														"addr": {
+															"streetAddressLine": "1001 Village Avenue",
+															"city": "Portland",
+															"state": "OR",
+															"postalCode": "99123",
+															"country": "US"
+														},
+														"telecom": {
+															"_nullFlavor": "UNK"
+														},
+														"assignedPerson": {
+															"name": {
+																"prefix": "Dr.",
+																"given": "Henry",
+																"family": "Seven"
+															}
+														},
+														"representedOrganization": {
+															"id": {
+																"_root": "2.16.840.1.113883.19.5.9999.1393"
+															},
+															"name": "Community Health and Hospitals",
+															"telecom": {
+																"_nullFlavor": "UNK"
+															},
+															"addr": {
+																"_nullFlavor": "UNK"
+															}
+														}
+													}
+												},
+												"_classCode": "SPLY",
+												"_moodCode": "EVN"
+											},
+											"_typeCode": "REFR"
+										}
+									],
+									"precondition": {
+										"criterion": {
+											"templateId": {
+												"_root": "2.16.840.1.113883.10.20.22.4.25",
+												"_extension": "2014-06-09"
+											},
+											"code": {
+												"_code": "ASSERTION",
+												"_codeSystem": "2.16.840.1.113883.5.4"
+											},
+											"value": {
+												"_xsi:type": "CD",
+												"_code": "56018004",
+												"_codeSystem": "2.16.840.1.113883.6.96",
+												"_displayName": "Wheezing"
+											}
+										},
+										"_typeCode": "PRCN"
+									},
+									"_classCode": "SBADM",
+									"_moodCode": "EVN"
+								},
+								"_typeCode": "DRIV"
+							}
+						}
+					},
+					{
+						"section": {
+							"templateId": {
+								"_root": "2.16.840.1.113883.10.20.2.10",
+								"_extension": "2014-06-09"
+							},
+							"code": {
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_code": "29545-1",
+								"_displayName": "PHYSICAL FINDINGS"
+							},
+							"title": "PHYSICAL EXAMINATION",
+							"text": {
+								"list": {
+									"item": [
+										"HEENT: All normal to examination.",
+										"Heart: RRR, no murmur.",
+										"THORAX & LUNGS: Clear without rhonchi or wheeze.",
+										"ABDOMEN: No distension, tenderness, or guarding, obese, pos bowel\n                        sounds.",
+										"BACK: Normal to inspection and palpation, without tenderness; no\n                        presacral edema.",
+										"EXTREMITIES: Doughy edema bilaterally, chronic stasis changes, no\n                        asymmetrical swelling."
+									],
+									"_listType": "ordered"
+								}
+							}
+						}
+					},
+					{
+						"section": {
+							"templateId": {
+								"_root": "2.16.840.1.113883.10.20.22.2.10",
+								"_extension": "2014-06-09"
+							},
+							"code": {
+								"_code": "18776-5",
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_displayName": "Plan of care note"
+							},
+							"title": "PLAN OF CARE",
+							"text": {
+								"table": {
+									"thead": {
+										"tr": {
+											"th": [
+												"Planned Activity",
+												"Planned Date"
+											]
+										}
+									},
+									"tbody": {
+										"tr": {
+											"td": [
+												"Colonoscopy",
+												"20120512"
+											]
+										}
+									},
+									"_border": "1",
+									"_width": "100%"
+								}
+							},
+							"entry": [
+								{
+									"observation": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.44",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "9a6d1bac-17d3-4195-89a4-1121bc809b4a"
+										},
+										"code": {
+											"_code": "28023-0",
+											"_codeSystem": "2.16.840.1.113883.6.1",
+											"_codeSystemName": "LOINC",
+											"_displayName": "Colonoscopy Study observation"
+										},
+										"statusCode": {
+											"_code": "active"
+										},
+										"effectiveTime": {
+											"center": {
+												"_value": "20120512"
+											}
+										},
+										"_classCode": "OBS",
+										"_moodCode": "RQO"
+									},
+									"_typeCode": "DRIV"
+								},
+								{
+									"act": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.39",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "9a6d1bac-17d3-4195-89a4-1121bc809a5c"
+										},
+										"code": {
+											"_code": "73761001",
+											"_codeSystem": "2.16.840.1.113883.6.96",
+											"_codeSystemName": "SNOMED CT",
+											"_displayName": "Colonoscopy"
+										},
+										"statusCode": {
+											"_code": "active"
+										},
+										"effectiveTime": {
+											"center": {
+												"_value": "20120512"
+											}
+										},
+										"_moodCode": "RQO",
+										"_classCode": "ACT"
+									}
+								},
+								{
+									"encounter": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.40",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "9a6d1bac-17d3-4195-89a4-1121bc809b4d"
+										},
+										"code": {
+											"_code": "185349003",
+											"_displayName": "Encounter for check up (procedure)",
+											"_codeSystemName": "SNOMED CT",
+											"_codeSystem": "2.16.840.1.113883.6.96"
+										},
+										"statusCode": {
+											"_code": "active"
+										},
+										"_moodCode": "INT",
+										"_classCode": "ENC"
+									}
+								},
+								{
+									"procedure": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.41",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "9a6d1bac-17d3-4195-89c4-1121bc809b5a"
+										},
+										"code": {
+											"_code": "73761001",
+											"_codeSystem": "2.16.840.1.113883.6.96",
+											"_codeSystemName": "SNOMED CT",
+											"_displayName": "Colonoscopy"
+										},
+										"statusCode": {
+											"_code": "new"
+										},
+										"effectiveTime": {
+											"center": {
+												"_value": "20120512"
+											}
+										},
+										"_moodCode": "RQO",
+										"_classCode": "PROC"
+									}
+								}
+							]
+						}
+					},
+					{
+						"section": {
+							"templateId": {
+								"_root": "2.16.840.1.113883.10.20.22.2.5.1",
+								"_extension": "2014-06-09"
+							},
+							"code": {
+								"_code": "11450-4",
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_displayName": "PROBLEM LIST"
+							},
+							"title": "PROBLEMS",
+							"text": {
+								"content": {
+									"_ID": "problems"
+								},
+								"list": {
+									"item": [
+										{
+											"content": {
+												"_ID": "problem1",
+												"__text": "Pneumonia : Status - Resolved"
+											}
+										},
+										{
+											"content": {
+												"_ID": "problem2",
+												"__text": "Asthma : Status - Active"
+											}
+										}
+									],
+									"_listType": "ordered"
+								}
+							},
+							"entry": [
+								{
+									"act": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.3",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "ec8a6ff8-ed4b-4f7e-82c3-e98e58b45de7"
+										},
+										"code": {
+											"_code": "CONC",
+											"_codeSystem": "2.16.840.1.113883.5.6",
+											"_displayName": "Concern"
+										},
+										"statusCode": {
+											"_code": "completed"
+										},
+										"effectiveTime": {
+											"low": {
+												"_value": "20080103"
+											},
+											"high": {
+												"_value": "20080103"
+											}
+										},
+										"entryRelationship": {
+											"observation": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.4",
+													"_extension": "2014-06-09"
+												},
+												"id": {
+													"_root": "ab1791b0-5c71-11db-b0de-0800200c9a66"
+												},
+												"code": {
+													"_code": "75322-8",
+													"_codeSystem": "2.16.840.1.113883.6.1",
+													"_codeSystemName": "LOINC",
+													"_displayName": "Complaint"
+												},
+												"text": {
+													"reference": {
+														"_value": "#problem1"
+													}
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"effectiveTime": {
+													"low": {
+														"_value": "20080103"
+													}
+												},
+												"value": {
+													"_xsi:type": "CD",
+													"_code": "233604007",
+													"_codeSystem": "2.16.840.1.113883.6.96",
+													"_displayName": "Pneumonia"
+												},
+												"entryRelationship": [
+													{
+														"observation": {
+															"templateId": {
+																"_root": "2.16.840.1.113883.10.20.22.4.31"
+															},
+															"code": {
+																"_code": "445518008",
+																"_codeSystem": "2.16.840.1.113883.6.96",
+																"_displayName": "Age At Onset"
+															},
+															"statusCode": {
+																"_code": "completed"
+															},
+															"value": {
+																"_xsi:type": "PQ",
+																"_value": "57",
+																"_unit": "a"
+															},
+															"_classCode": "OBS",
+															"_moodCode": "EVN"
+														},
+														"_typeCode": "SUBJ",
+														"_inversionInd": "true"
+													},
+													{
+														"observation": {
+															"templateId": {
+																"_root": "2.16.840.1.113883.10.20.22.4.5",
+																"_extension": "2014-06-09"
+															},
+															"id": {
+																"_root": "e3c3db86-e8b4-4169-865b-b9e80ba10eb8"
+															},
+															"code": {
+																"_code": "11323-3",
+																"_codeSystem": "2.16.840.1.113883.6.1",
+																"_codeSystemName": "LOINC",
+																"_displayName": "Health status"
+															},
+															"text": {
+																"reference": {
+																	"_value": "#problems"
+																}
+															},
+															"statusCode": {
+																"_code": "completed"
+															},
+															"value": {
+																"_xsi:type": "CD",
+																"_code": "81323004",
+																"_codeSystem": "2.16.840.1.113883.6.96",
+																"_codeSystemName": "SNOMED CT",
+																"_displayName": "Normal general body function"
+															},
+															"_classCode": "OBS",
+															"_moodCode": "EVN"
+														},
+														"_typeCode": "REFR"
+													}
+												],
+												"_classCode": "OBS",
+												"_moodCode": "EVN"
+											},
+											"_typeCode": "SUBJ"
+										},
+										"_classCode": "ACT",
+										"_moodCode": "EVN"
+									},
+									"_typeCode": "DRIV"
+								},
+								{
+									"act": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.3",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "ec8a6ff8-ed4b-4f7e-82c3-e98e58b45de7"
+										},
+										"code": {
+											"_code": "CONC",
+											"_codeSystem": "2.16.840.1.113883.5.6",
+											"_displayName": "Concern"
+										},
+										"statusCode": {
+											"_code": "completed"
+										},
+										"effectiveTime": {
+											"low": {
+												"_value": "20070103"
+											},
+											"high": {
+												"_value": "20070103"
+											}
+										},
+										"entryRelationship": {
+											"observation": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.4",
+													"_extension": "2014-06-09"
+												},
+												"id": {
+													"_root": "ab1791b0-5c71-11db-b0de-0800200c9a66"
+												},
+												"code": {
+													"_code": "75322-8",
+													"_codeSystem": "2.16.840.1.113883.6.1",
+													"_codeSystemName": "LOINC",
+													"_displayName": "Complaint"
+												},
+												"text": {
+													"reference": {
+														"_value": "#problem2"
+													}
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"effectiveTime": {
+													"low": {
+														"_value": "20070103"
+													}
+												},
+												"value": {
+													"_xsi:type": "CD",
+													"_code": "195967001",
+													"_codeSystem": "2.16.840.1.113883.6.96",
+													"_displayName": "Asthma"
+												},
+												"entryRelationship": [
+													{
+														"observation": {
+															"templateId": {
+																"_root": "2.16.840.1.113883.10.20.22.4.31"
+															},
+															"code": {
+																"_code": "445518008",
+																"_codeSystem": "2.16.840.1.113883.6.96",
+																"_displayName": "Age At Onset"
+															},
+															"statusCode": {
+																"_code": "completed"
+															},
+															"value": {
+																"_xsi:type": "PQ",
+																"_value": "57",
+																"_unit": "a"
+															},
+															"_classCode": "OBS",
+															"_moodCode": "EVN"
+														},
+														"_typeCode": "SUBJ",
+														"_inversionInd": "true"
+													},
+													{
+														"observation": {
+															"templateId": {
+																"_root": "2.16.840.1.113883.10.20.22.4.5",
+																"_extension": "2014-06-09"
+															},
+															"id": {
+																"_root": "b2e63993-0b08-4cc6-9733-f4024ebfb9a6"
+															},
+															"code": {
+																"_code": "11323-3",
+																"_codeSystem": "2.16.840.1.113883.6.1",
+																"_codeSystemName": "LOINC",
+																"_displayName": "Health status"
+															},
+															"text": {
+																"reference": {
+																	"_value": "#problems"
+																}
+															},
+															"statusCode": {
+																"_code": "completed"
+															},
+															"value": {
+																"_xsi:type": "CD",
+																"_code": "81323004",
+																"_codeSystem": "2.16.840.1.113883.6.96",
+																"_codeSystemName": "SNOMED CT",
+																"_displayName": "Normal general body function"
+															},
+															"_classCode": "OBS",
+															"_moodCode": "EVN"
+														},
+														"_typeCode": "REFR"
+													}
+												],
+												"_classCode": "OBS",
+												"_moodCode": "EVN"
+											},
+											"_typeCode": "SUBJ"
+										},
+										"_classCode": "ACT",
+										"_moodCode": "EVN"
+									},
+									"_typeCode": "DRIV"
+								}
+							]
+						}
+					},
+					{
+						"section": {
+							"templateId": {
+								"_root": "2.16.840.1.113883.10.20.22.2.7",
+								"_extension": "2014-06-09"
+							},
+							"code": {
+								"_code": "47519-4",
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_displayName": "HISTORY OF PROCEDURES"
+							},
+							"title": "PROCEDURES",
+							"text": {
+								"table": {
+									"thead": {
+										"tr": {
+											"th": [
+												"Procedure",
+												"Date"
+											]
+										}
+									},
+									"tbody": {
+										"tr": {
+											"td": [
+												{
+													"content": {
+														"_ID": "Proc1",
+														"__text": "Colonic polypectomy"
+													}
+												},
+												"1998"
+											]
+										}
+									},
+									"_border": "1",
+									"_width": "100%"
+								}
+							},
+							"entry": [
+								{
+									"procedure": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.14",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "d68b7e32-7810-4f5b-9cc2-acd54b0fd85d"
+										},
+										"code": {
+											"originalText": {
+												"reference": {
+													"_value": "#Proc1"
+												}
+											},
+											"_code": "73761001",
+											"_codeSystem": "2.16.840.1.113883.6.96",
+											"_codeSystemName": "SNOMED CT",
+											"_displayName": "Colonoscopy"
+										},
+										"statusCode": {
+											"_code": "completed"
+										},
+										"effectiveTime": {
+											"_value": "20120512"
+										},
+										"methodCode": {
+											"_nullFlavor": "UNK"
+										},
+										"specimen": {
+											"specimenRole": {
+												"id": {
+													"_root": "c2ee9ee9-ae31-4628-a919-fec1cbb58683"
+												},
+												"specimenPlayingEntity": {
+													"code": {
+														"_code": "309226005",
+														"_codeSystem": "2.16.840.1.113883.6.96",
+														"_displayName": "colonic polyp sample"
+													}
+												},
+												"_classCode": "SPEC"
+											},
+											"_typeCode": "SPC"
+										},
+										"performer": {
+											"assignedEntity": {
+												"id": {
+													"_root": "2.16.840.1.113883.19.5.9999.456",
+													"_extension": "2981823"
+												},
+												"addr": {
+													"streetAddressLine": "1001 Village Avenue",
+													"city": "Portland",
+													"state": "OR",
+													"postalCode": "99123",
+													"country": "US"
+												},
+												"telecom": {
+													"_use": "WP",
+													"_value": "555-555-5000"
+												},
+												"representedOrganization": {
+													"id": {
+														"_root": "2.16.840.1.113883.19.5.9999.1393"
+													},
+													"name": "Community Health and Hospitals",
+													"telecom": {
+														"_use": "WP",
+														"_value": "555-555-5000"
+													},
+													"addr": {
+														"streetAddressLine": "1001 Village Avenue",
+														"city": "Portland",
+														"state": "OR",
+														"postalCode": "99123",
+														"country": "US"
+													}
+												}
+											}
+										},
+										"participant": {
+											"participantRole": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.37"
+												},
+												"id": {
+													"_root": "742aee30-21c5-11e1-bfc2-0800200c9a66"
+												},
+												"playingDevice": {
+													"code": {
+														"_code": "90412006",
+														"_codeSystem": "2.16.840.1.113883.6.96",
+														"_displayName": "Colonoscope"
+													}
+												},
+												"scopingEntity": {
+													"id": {
+														"_root": "eb936010-7b17-11db-9fe1-0800200c9b65"
+													}
+												},
+												"_classCode": "MANU"
+											},
+											"_typeCode": "DEV"
+										},
+										"_classCode": "PROC",
+										"_moodCode": "EVN"
+									},
+									"_typeCode": "DRIV"
+								},
+								{
+									"observation": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.13",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_extension": "123456789",
+											"_root": "2.16.840.1.113883.19"
+										},
+										"code": {
+											"originalText": {
+												"reference": {
+													"_value": "#Proc1"
+												}
+											},
+											"_code": "274025005",
+											"_codeSystem": "2.16.840.1.113883.6.96",
+											"_displayName": "Colonic polypectomy",
+											"_codeSystemName": "SNOMED-CT"
+										},
+										"statusCode": {
+											"_code": "aborted"
+										},
+										"effectiveTime": {
+											"_value": "20110203"
+										},
+										"priorityCode": {
+											"_code": "CR",
+											"_codeSystem": "2.16.840.1.113883.5.7",
+											"_codeSystemName": "ActPriority",
+											"_displayName": "callback results"
+										},
+										"value": {
+											"_xsi:type": "CD"
+										},
+										"methodCode": {
+											"_nullFlavor": "UNK"
+										},
+										"targetSiteCode": {
+											"_code": "416949008",
+											"_codeSystem": "2.16.840.1.113883.6.96",
+											"_codeSystemName": "SNOMED CT",
+											"_displayName": "Abdomen and pelvis"
+										},
+										"performer": {
+											"assignedEntity": {
+												"id": {
+													"_root": "2.16.840.1.113883.19.5",
+													"_extension": "1234"
+												},
+												"addr": {
+													"streetAddressLine": "17 Daws Rd.",
+													"city": "Blue Bell",
+													"state": "MA",
+													"postalCode": "02368",
+													"country": "US"
+												},
+												"telecom": {
+													"_use": "WP",
+													"_value": "(555)555-555-1234"
+												},
+												"representedOrganization": {
+													"id": {
+														"_root": "2.16.840.1.113883.19.5"
+													},
+													"name": "Community Health and Hospitals",
+													"telecom": {
+														"_nullFlavor": "UNK"
+													},
+													"addr": {
+														"_nullFlavor": "UNK"
+													}
+												}
+											}
+										},
+										"participant": {
+											"participantRole": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.32"
+												},
+												"code": {
+													"_code": "1160-1",
+													"_codeSystem": "2.16.840.1.113883.6.259",
+													"_codeSystemName": "HealthcareServiceLocation",
+													"_displayName": "Urgent Care Center"
+												},
+												"addr": {
+													"streetAddressLine": "17 Daws Rd.",
+													"city": "Blue Bell",
+													"state": "MA",
+													"postalCode": "02368",
+													"country": "US"
+												},
+												"telecom": {
+													"_nullFlavor": "UNK"
+												},
+												"playingEntity": {
+													"name": "Community Health and Hospitals",
+													"_classCode": "PLC"
+												},
+												"_classCode": "SDLOC"
+											},
+											"_typeCode": "LOC"
+										},
+										"_classCode": "OBS",
+										"_moodCode": "EVN"
+									}
+								},
+								{
+									"act": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.12",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "1.2.3.4.5.6.7.8",
+											"_extension": "1234567"
+										},
+										"code": {
+											"originalText": {
+												"reference": {
+													"_value": "#Proc1"
+												}
+											},
+											"_code": "274025005",
+											"_codeSystem": "2.16.840.1.113883.6.96",
+											"_codeSystemName": "SNOMED CT",
+											"_displayName": "Colonic polypectomy"
+										},
+										"statusCode": {
+											"_code": "completed"
+										},
+										"effectiveTime": {
+											"_value": "20110203"
+										},
+										"priorityCode": {
+											"_code": "CR",
+											"_codeSystem": "2.16.840.1.113883.5.7",
+											"_codeSystemName": "ActPriority",
+											"_displayName": "callback results"
+										},
+										"performer": {
+											"assignedEntity": {
+												"id": {
+													"_root": "2.16.840.1.113883.19",
+													"_extension": "1234"
+												},
+												"addr": {
+													"streetAddressLine": "17 Daws Rd.",
+													"city": "Blue Bell",
+													"state": "MA",
+													"postalCode": "02368",
+													"country": "US"
+												},
+												"telecom": {
+													"_use": "WP",
+													"_value": "(555)555-555-1234"
+												},
+												"representedOrganization": {
+													"id": {
+														"_root": "2.16.840.1.113883.19.5"
+													},
+													"name": "Community Health and Hospitals",
+													"telecom": {
+														"_nullFlavor": "UNK"
+													},
+													"addr": {
+														"_nullFlavor": "UNK"
+													}
+												}
+											}
+										},
+										"participant": {
+											"participantRole": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.32"
+												},
+												"code": {
+													"_code": "1160-1",
+													"_codeSystem": "2.16.840.1.113883.6.259",
+													"_codeSystemName": "HealthcareServiceLocation",
+													"_displayName": "Urgent Care Center"
+												},
+												"addr": {
+													"streetAddressLine": "17 Daws Rd.",
+													"city": "Blue Bell",
+													"state": "MA",
+													"postalCode": "02368",
+													"country": "US"
+												},
+												"telecom": {
+													"_nullFlavor": "UNK"
+												},
+												"playingEntity": {
+													"name": "Community Health and Hospitals",
+													"_classCode": "PLC"
+												},
+												"_classCode": "SDLOC"
+											},
+											"_typeCode": "LOC"
+										},
+										"_classCode": "ACT",
+										"_moodCode": "EVN"
+									}
+								}
+							]
+						}
+					},
+					{
+						"section": {
+							"templateId": [
+								{
+									"_root": "2.16.840.1.113883.10.20.22.2.3",
+									"_extension": "2014-06-09"
+								},
+								{
+									"_root": "2.16.840.1.113883.10.20.22.2.3.1",
+									"_extension": "2014-06-09"
+								}
+							],
+							"code": {
+								"_code": "30954-2",
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_displayName": "RESULTS"
+							},
+							"title": "RESULTS",
+							"text": {
+								"table": {
+									"tbody": {
+										"tr": [
+											{
+												"td": {
+													"_colspan": "2",
+													"__text": "LABORATORY INFORMATION"
+												}
+											},
+											{
+												"td": {
+													"_colspan": "2",
+													"__text": "Chemistries and drug levels"
+												}
+											},
+											{
+												"td": [
+													{
+														"content": {
+															"_ID": "result1",
+															"__text": "HGB (M 13-18 g/dl; F 12-16 g/dl)"
+														}
+													},
+													"13.2"
+												]
+											},
+											{
+												"td": [
+													{
+														"content": {
+															"_ID": "result2",
+															"__text": "WBC (4.3-10.8 10+3/ul)"
+														}
+													},
+													"6.7"
+												]
+											},
+											{
+												"td": [
+													{
+														"content": {
+															"_ID": "result3",
+															"__text": "PLT (135-145 meq/l)"
+														}
+													},
+													"123 (L)"
+												]
+											},
+											{
+												"td": {
+													"_colspan": "2",
+													"__text": "Liver Functions and Other Laboratory Values"
+												}
+											},
+											{
+												"td": [
+													"ALT (SGPT)",
+													"31.0"
+												]
+											},
+											{
+												"td": [
+													"AST (SGOT)",
+													"18.0"
+												]
+											},
+											{
+												"td": [
+													"GGT",
+													"28.0 Alk"
+												]
+											},
+											{
+												"td": [
+													"Phos",
+													"86.0"
+												]
+											},
+											{
+												"td": [
+													"Total Bili",
+													"0.1"
+												]
+											},
+											{
+												"td": [
+													"Albumin",
+													"3.2"
+												]
+											},
+											{
+												"td": {
+													"_colspan": "2",
+													"__text": "Blood Count"
+												}
+											},
+											{
+												"td": [
+													"White Count",
+													"7.7"
+												]
+											},
+											{
+												"td": [
+													"Platelets",
+													"187.0"
+												]
+											},
+											{
+												"td": [
+													"Hematocrit",
+													"23.7"
+												]
+											},
+											{
+												"td": [
+													"Hemoglobin",
+													"8.1"
+												]
+											},
+											{
+												"td": {
+													"_colspan": "2",
+													"__text": "ELECTROCARDIOGRAM (EKG) INFORMATION"
+												}
+											},
+											{
+												"td": [
+													"EKG",
+													"Sinus rhythm without acute changes"
+												]
+											}
+										]
+									}
+								}
+							},
+							"entry": {
+								"organizer": {
+									"templateId": {
+										"_root": "2.16.840.1.113883.10.20.22.4.1",
+										"_extension": "2014-06-09"
+									},
+									"id": {
+										"_root": "7d5a02b0-67a4-11db-bd13-0800200c9a66"
+									},
+									"code": {
+										"_code": "43789009",
+										"_displayName": "Complete blood count without differential",
+										"_codeSystem": "2.16.840.1.113883.6.96",
+										"_codeSystemName": "SNOMED CT"
+									},
+									"statusCode": {
+										"_code": "completed"
+									},
+									"component": [
+										{
+											"observation": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.2",
+													"_extension": "2014-06-09"
+												},
+												"id": {
+													"_root": "107c2dc0-67a5-11db-bd13-0800200c9a66"
+												},
+												"code": {
+													"_code": "30313-1",
+													"_displayName": "HGB",
+													"_codeSystem": "2.16.840.1.113883.6.1",
+													"_codeSystemName": "LOINC"
+												},
+												"text": {
+													"reference": {
+														"_value": "#result1"
+													}
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"effectiveTime": {
+													"_value": "200003231430"
+												},
+												"value": {
+													"_xsi:type": "PQ",
+													"_value": "13.2",
+													"_unit": "g/dl"
+												},
+												"interpretationCode": {
+													"_code": "N",
+													"_codeSystem": "2.16.840.1.113883.5.83",
+													"_displayName": "Normal"
+												},
+												"methodCode": "",
+												"targetSiteCode": "",
+												"author": {
+													"time": "",
+													"assignedAuthor": {
+														"id": {
+															"_root": "2a620155-9d11-439e-92b3-5d9816ff4de8"
+														}
+													}
+												},
+												"referenceRange": {
+													"observationRange": {
+														"text": "M 13-18 g/dl; F 12-16 g/dl",
+														"value": {
+															"low": {
+																"_value": "12.0",
+																"_unit": "g/dl"
+															},
+															"high": {
+																"_value": "15.5",
+																"_unit": "g/dl"
+															},
+															"_xsi:type": "IVL_PQ"
+														}
+													}
+												},
+												"_classCode": "OBS",
+												"_moodCode": "EVN"
+											}
+										},
+										{
+											"observation": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.2",
+													"_extension": "2014-06-09"
+												},
+												"id": {
+													"_root": "107c2dc0-67a5-11db-bd13-0800200c9a66"
+												},
+												"code": {
+													"_code": "33765-9",
+													"_displayName": "WBC",
+													"_codeSystem": "2.16.840.1.113883.6.1",
+													"_codeSystemName": "LOINC"
+												},
+												"text": {
+													"reference": {
+														"_value": "#result2"
+													}
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"effectiveTime": {
+													"_value": "200003231430"
+												},
+												"value": {
+													"_xsi:type": "PQ",
+													"_value": "6.7",
+													"_unit": "10+3/ul"
+												},
+												"interpretationCode": {
+													"_code": "N",
+													"_codeSystem": "2.16.840.1.113883.5.83",
+													"_displayName": "Normal"
+												},
+												"methodCode": "",
+												"targetSiteCode": "",
+												"author": {
+													"time": "",
+													"assignedAuthor": {
+														"id": {
+															"_root": "2a620154-9d11-439e-92b3-5d9815ff4de8"
+														}
+													}
+												},
+												"referenceRange": {
+													"observationRange": {
+														"value": {
+															"low": {
+																"_value": "4.3",
+																"_unit": "10+3/ul"
+															},
+															"high": {
+																"_value": "10.8",
+																"_unit": "10+3/ul"
+															},
+															"_xsi:type": "IVL_PQ"
+														}
+													}
+												},
+												"_classCode": "OBS",
+												"_moodCode": "EVN"
+											}
+										},
+										{
+											"observation": {
+												"templateId": {
+													"_root": "2.16.840.1.113883.10.20.22.4.2",
+													"_extension": "2014-06-09"
+												},
+												"id": {
+													"_root": "107c2dc0-67a5-11db-bd13-0800200c9a66"
+												},
+												"code": {
+													"_code": "26515-7",
+													"_displayName": "PLT",
+													"_codeSystem": "2.16.840.1.113883.6.1",
+													"_codeSystemName": "LOINC"
+												},
+												"text": {
+													"reference": {
+														"_value": "#result3"
+													}
+												},
+												"statusCode": {
+													"_code": "completed"
+												},
+												"effectiveTime": {
+													"_value": "200003231430"
+												},
+												"value": {
+													"_xsi:type": "PQ",
+													"_value": "123",
+													"_unit": "10+3/ul"
+												},
+												"interpretationCode": {
+													"_code": "L",
+													"_codeSystem": "2.16.840.1.113883.5.83",
+													"_displayName": "Low"
+												},
+												"methodCode": "",
+												"targetSiteCode": "",
+												"author": {
+													"time": "",
+													"assignedAuthor": {
+														"id": {
+															"_root": "2a620155-9d11-439e-92b3-5d9815ff4de8"
+														}
+													}
+												},
+												"referenceRange": {
+													"observationRange": {
+														"value": {
+															"low": {
+																"_value": "150",
+																"_unit": "10+3/ul"
+															},
+															"high": {
+																"_value": "350",
+																"_unit": "10+3/ul"
+															},
+															"_xsi:type": "IVL_PQ"
+														}
+													}
+												},
+												"_classCode": "OBS",
+												"_moodCode": "EVN"
+											}
+										}
+									],
+									"_classCode": "BATTERY",
+									"_moodCode": "EVN"
+								},
+								"_typeCode": "DRIV"
+							}
+						}
+					},
+					{
+						"section": {
+							"templateId": {
+								"_root": "1.3.6.1.4.1.19376.1.5.3.1.3.18"
+							},
+							"code": {
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_code": "10187-3",
+								"_displayName": "REVIEW OF SYSTEMS"
+							},
+							"title": "REVIEW OF SYSTEMS",
+							"text": {
+								"paragraph": "Patient denies recent history of fever or malaise. Positive for\n                     weakness and shortness of breath. One episode of melena. No recent headaches.\n                     Positive for osteoarthritis in hips, knees and hands."
+							}
+						}
+					},
+					{
+						"section": {
+							"templateId": {
+								"_root": "2.16.840.1.113883.10.20.22.2.17",
+								"_extension": "2014-06-09"
+							},
+							"code": {
+								"_code": "29762-2",
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_displayName": "Social History"
+							},
+							"title": "SOCIAL HISTORY",
+							"text": {
+								"table": {
+									"thead": {
+										"tr": {
+											"th": [
+												"Social History Element",
+												"Description",
+												"Effective Dates"
+											]
+										}
+									},
+									"tbody": {
+										"tr": [
+											{
+												"td": [
+													{
+														"content": {
+															"_ID": "soc1"
+														},
+														"__text": "Tobacco smoking status"
+													},
+													"Former smoke",
+													"20050501 to 200902271300-0500"
+												]
+											},
+											{
+												"td": [
+													{
+														"content": {
+															"_ID": "soc2"
+														},
+														"__text": "History of industrial exposure"
+													},
+													"5 years of working with asbestos",
+													"20050501-20100431"
+												]
+											},
+											{
+												"td": [
+													{
+														"content": {
+															"_ID": "soc3"
+														},
+														"__text": "Alcoholic drinks per day"
+													},
+													"0",
+													"20050501 -"
+												]
+											}
+										]
+									},
+									"_border": "1",
+									"_width": "100%"
+								}
+							},
+							"entry": [
+								{
+									"observation": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.78",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_extension": "123456789",
+											"_root": "2.16.840.1.113883.19"
+										},
+										"code": {
+											"_code": "72166-2",
+											"_codeSystem": "2.16.840.1.113883.6.1",
+											"_displayName": "Tobacco smoking status NHIS"
+										},
+										"statusCode": {
+											"_code": "completed"
+										},
+										"effectiveTime": {
+											"_value": "20120910"
+										},
+										"value": {
+											"_xsi:type": "CD",
+											"_code": "8517006",
+											"_displayName": "Ex-smoker",
+											"_codeSystem": "2.16.840.1.113883.6.96"
+										},
+										"_classCode": "OBS",
+										"_moodCode": "EVN"
+									},
+									"_typeCode": "DRIV"
+								},
+								{
+									"observation": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.38",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "9b56c25d-9104-45ee-9fa4-e0f3afaa01c1"
+										},
+										"code": {
+											"originalText": {
+												"reference": {
+													"_value": "#soc1"
+												}
+											},
+											"_code": "10159-2",
+											"_codeSystem": "2.16.840.1.113883.6.1",
+											"_codeSystemName": "LOINC",
+											"_displayName": "History of industrial exposure"
+										},
+										"statusCode": {
+											"_code": "completed"
+										},
+										"effectiveTime": {
+											"low": {
+												"_value": "20050501"
+											},
+											"high": {
+												"_value": "20100431"
+											}
+										},
+										"value": {
+											"_xsi:type": "ST",
+											"__text": "5 years of working with asbestos"
+										},
+										"_classCode": "OBS",
+										"_moodCode": "EVN"
+									},
+									"_typeCode": "DRIV"
+								},
+								{
+									"observation": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.38",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "37f76c51-6411-4e1d-8a37-957fd49d2cef"
+										},
+										"code": {
+											"originalText": {
+												"reference": {
+													"_value": "#soc3"
+												}
+											},
+											"_code": "74013-4",
+											"_codeSystem": "2.16.840.1.113883.6.1",
+											"_codeSystemName": "LOINC",
+											"_displayName": "Alcoholic drinks per day"
+										},
+										"statusCode": {
+											"_code": "completed"
+										},
+										"effectiveTime": {
+											"low": {
+												"_value": "20050501"
+											}
+										},
+										"value": {
+											"_xsi:type": "PQ",
+											"_value": "0"
+										},
+										"_classCode": "OBS",
+										"_moodCode": "EVN"
+									},
+									"_typeCode": "DRIV"
+								}
+							]
+						}
+					},
+					{
+						"section": {
+							"templateId": [
+								{
+									"_root": "2.16.840.1.113883.10.20.22.2.4",
+									"_extension": "2014-06-09"
+								},
+								{
+									"_root": "2.16.840.1.113883.10.20.22.2.4.1",
+									"_extension": "2014-06-09"
+								}
+							],
+							"code": {
+								"_code": "8716-3",
+								"_codeSystem": "2.16.840.1.113883.6.1",
+								"_codeSystemName": "LOINC",
+								"_displayName": "Vital signs"
+							},
+							"title": "VITAL SIGNS",
+							"text": {
+								"table": {
+									"thead": {
+										"tr": {
+											"th": [
+												{
+													"_align": "right",
+													"__text": "Date / Time:"
+												},
+												"Nov 14, 1999",
+												"April 7, 2000"
+											]
+										}
+									},
+									"tbody": {
+										"tr": [
+											{
+												"th": {
+													"_align": "left",
+													"__text": "Height"
+												},
+												"td": [
+													{
+														"content": {
+															"_ID": "vit1",
+															"__text": "177 cm"
+														}
+													},
+													{
+														"content": {
+															"_ID": "vit2",
+															"__text": "177 cm"
+														}
+													}
+												]
+											},
+											{
+												"th": {
+													"_align": "left",
+													"__text": "Weight"
+												},
+												"td": [
+													{
+														"content": {
+															"_ID": "vit3",
+															"__text": "86 kg"
+														}
+													},
+													{
+														"content": {
+															"_ID": "vit4",
+															"__text": "88 kg"
+														}
+													}
+												]
+											},
+											{
+												"th": {
+													"_align": "left",
+													"__text": "Blood Pressure"
+												},
+												"td": [
+													{
+														"content": {
+															"_ID": "vit5",
+															"__text": "132/86 mmHg"
+														}
+													},
+													{
+														"content": {
+															"_ID": "vit6",
+															"__text": "145/88 mmHg"
+														}
+													}
+												]
+											}
+										]
+									},
+									"_border": "1",
+									"_width": "100%"
+								}
+							},
+							"entry": [
+								{
+									"organizer": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.26",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "c6f88320-67ad-11db-bd13-0800200c9a66"
+										},
+										"code": {
+											"_code": "74728-7",
+											"_codeSystem": "2.16.840.1.113883.6.1",
+											"_codeSystemName": "LOINC",
+											"_displayName": "Vital signs, weight, height, head circumference, oximetry, BMI, and BSA panel"
+										},
+										"statusCode": {
+											"_code": "completed"
+										},
+										"effectiveTime": {
+											"_value": "19991114"
+										},
+										"component": [
+											{
+												"observation": {
+													"templateId": {
+														"_root": "2.16.840.1.113883.10.20.22.4.27",
+														"_extension": "2014-06-09"
+													},
+													"id": {
+														"_root": "c6f88321-67ad-11db-bd13-0800200c9a66"
+													},
+													"code": {
+														"_code": "8302-2",
+														"_codeSystem": "2.16.840.1.113883.6.1",
+														"_codeSystemName": "LOINC",
+														"_displayName": "Body height"
+													},
+													"text": {
+														"reference": {
+															"_value": "#vit1"
+														}
+													},
+													"statusCode": {
+														"_code": "completed"
+													},
+													"effectiveTime": {
+														"_value": "19991114"
+													},
+													"value": {
+														"_xsi:type": "PQ",
+														"_value": "177",
+														"_unit": "cm"
+													},
+													"interpretationCode": {
+														"_code": "N",
+														"_codeSystem": "2.16.840.1.113883.5.83",
+														"_displayName": "Normal"
+													},
+													"_classCode": "OBS",
+													"_moodCode": "EVN"
+												}
+											},
+											{
+												"observation": {
+													"templateId": {
+														"_root": "2.16.840.1.113883.10.20.22.4.27",
+														"_extension": "2014-06-09"
+													},
+													"id": {
+														"_root": "c6f88321-67ad-11db-bd13-0800200c9a66"
+													},
+													"code": {
+														"_code": "3141-9",
+														"_codeSystem": "2.16.840.1.113883.6.1",
+														"_codeSystemName": "LOINC",
+														"_displayName": "Patient Body Weight - Measured"
+													},
+													"text": {
+														"reference": {
+															"_value": "#vit4"
+														}
+													},
+													"statusCode": {
+														"_code": "completed"
+													},
+													"effectiveTime": {
+														"_value": "19991114"
+													},
+													"value": {
+														"_xsi:type": "PQ",
+														"_value": "86",
+														"_unit": "kg"
+													},
+													"interpretationCode": {
+														"_code": "N",
+														"_codeSystem": "2.16.840.1.113883.5.83",
+														"_displayName": "Normal"
+													},
+													"_classCode": "OBS",
+													"_moodCode": "EVN"
+												}
+											},
+											{
+												"observation": {
+													"templateId": {
+														"_root": "2.16.840.1.113883.10.20.22.4.27",
+														"_extension": "2014-06-09"
+													},
+													"id": {
+														"_root": "c6f88321-67ad-11db-bd13-0800200c9a66"
+													},
+													"code": {
+														"_code": "8480-6",
+														"_codeSystem": "2.16.840.1.113883.6.1",
+														"_codeSystemName": "LOINC",
+														"_displayName": "Systolic blood pressure"
+													},
+													"text": {
+														"reference": {
+															"_value": "#vit5"
+														}
+													},
+													"statusCode": {
+														"_code": "completed"
+													},
+													"effectiveTime": {
+														"_value": "19991114"
+													},
+													"value": {
+														"_xsi:type": "PQ",
+														"_value": "132",
+														"_unit": "mm[Hg]"
+													},
+													"interpretationCode": {
+														"_code": "N",
+														"_codeSystem": "2.16.840.1.113883.5.83",
+														"_displayName": "Normal"
+													},
+													"_classCode": "OBS",
+													"_moodCode": "EVN"
+												}
+											}
+										],
+										"_classCode": "CLUSTER",
+										"_moodCode": "EVN"
+									},
+									"_typeCode": "DRIV"
+								},
+								{
+									"organizer": {
+										"templateId": {
+											"_root": "2.16.840.1.113883.10.20.22.4.26",
+											"_extension": "2014-06-09"
+										},
+										"id": {
+											"_root": "c6f88320-67ad-11db-bd13-0800200c9a66"
+										},
+										"code": {
+											"_code": "74728-7",
+											"_codeSystem": "2.16.840.1.113883.6.1",
+											"_codeSystemName": "LOINC",
+											"_displayName": "Vital signs, weight, height, head circumference, oximetry, BMI, and BSA panel"
+										},
+										"statusCode": {
+											"_code": "completed"
+										},
+										"effectiveTime": {
+											"_value": "20000407"
+										},
+										"component": [
+											{
+												"observation": {
+													"templateId": {
+														"_root": "2.16.840.1.113883.10.20.22.4.27",
+														"_extension": "2014-06-09"
+													},
+													"id": {
+														"_root": "c6f88321-67ad-11db-bd13-0800200c9a66"
+													},
+													"code": {
+														"_code": "8302-2",
+														"_codeSystem": "2.16.840.1.113883.6.1",
+														"_codeSystemName": "LOINC",
+														"_displayName": "Body height"
+													},
+													"text": {
+														"reference": {
+															"_value": "#vit2"
+														}
+													},
+													"statusCode": {
+														"_code": "completed"
+													},
+													"effectiveTime": {
+														"_value": "20000407"
+													},
+													"value": {
+														"_xsi:type": "PQ",
+														"_value": "177",
+														"_unit": "cm"
+													},
+													"interpretationCode": {
+														"_code": "N",
+														"_codeSystem": "2.16.840.1.113883.5.83",
+														"_displayName": "Normal"
+													},
+													"_classCode": "OBS",
+													"_moodCode": "EVN"
+												}
+											},
+											{
+												"observation": {
+													"templateId": {
+														"_root": "2.16.840.1.113883.10.20.22.4.27",
+														"_extension": "2014-06-09"
+													},
+													"id": {
+														"_root": "c6f88321-67ad-11db-bd13-0800200c9a66"
+													},
+													"code": {
+														"_code": "3141-9",
+														"_codeSystem": "2.16.840.1.113883.6.1",
+														"_codeSystemName": "LOINC",
+														"_displayName": "Patient Body Weight - Measured"
+													},
+													"text": {
+														"reference": {
+															"_value": "#vit4"
+														}
+													},
+													"statusCode": {
+														"_code": "completed"
+													},
+													"effectiveTime": {
+														"_value": "20000407"
+													},
+													"value": {
+														"_xsi:type": "PQ",
+														"_value": "88",
+														"_unit": "kg"
+													},
+													"interpretationCode": {
+														"_code": "N",
+														"_codeSystem": "2.16.840.1.113883.5.83",
+														"_displayName": "Normal"
+													},
+													"_classCode": "OBS",
+													"_moodCode": "EVN"
+												}
+											},
+											{
+												"observation": {
+													"templateId": {
+														"_root": "2.16.840.1.113883.10.20.22.4.27",
+														"_extension": "2014-06-09"
+													},
+													"id": {
+														"_root": "c6f88321-67ad-11db-bd13-0800200c9a66"
+													},
+													"code": {
+														"_code": "8480-6",
+														"_codeSystem": "2.16.840.1.113883.6.1",
+														"_codeSystemName": "LOINC",
+														"_displayName": "Systolic blood pressure"
+													},
+													"text": {
+														"reference": {
+															"_value": "#vit6"
+														}
+													},
+													"statusCode": {
+														"_code": "completed"
+													},
+													"effectiveTime": {
+														"_value": "20000407"
+													},
+													"value": {
+														"_xsi:type": "PQ",
+														"_value": "145",
+														"_unit": "mm[Hg]"
+													},
+													"interpretationCode": {
+														"_code": "N",
+														"_codeSystem": "2.16.840.1.113883.5.83",
+														"_displayName": "Normal"
+													},
+													"_classCode": "OBS",
+													"_moodCode": "EVN"
+												}
+											}
+										],
+										"_classCode": "CLUSTER",
+										"_moodCode": "EVN"
+									},
+									"_typeCode": "DRIV"
+								}
+							]
+						}
+					}
+				]
+			}
+		},
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xmlns": "urn:hl7-org:v3",
+		"_xmlns:cda": "urn:hl7-org:v3",
+		"_xmlns:sdtc": "urn:hl7-org:sdtc"
+	}
+}
